@@ -1,0 +1,44 @@
+// app/build.gradle.kts — device-support changes
+//
+// 1) Android 10 support (EysClone minSdk 29; FLY8 minSdk 30)
+//    FLY8 uses Android 11+ Wireless debugging pairing. On Android 10 keep the other
+//    connection methods (root, Shizuku, computer activation via USB) and hide
+//    "Start pairing" when Build.VERSION.SDK_INT < 30.
+//
+// 2) x86_64 support (emulators, Chromebooks, Windows Subsystem for Android)
+//    EysClone ships lib/x86_64/*.so; FLY8 ships only arm64-v8a and armeabi-v7a.
+//    libblackbox.so must be BUILT for x86_64 (the BlackBox native module is CMake-based),
+//    and conscrypt / spake2 / androidx.graphics.path need their x86_64 variants
+//    (the AARs already contain them; abiFilters is what removes them today).
+
+android {
+    defaultConfig {
+        minSdk = 29              // was 30
+        targetSdk = 33
+        ndk {
+            abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64")   // add x86_64
+        }
+        externalNativeBuild {
+            cmake {
+                // BlackBox native module: build all three ABIs
+                abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64")
+            }
+        }
+    }
+    // Optional: produce per-ABI APKs to keep downloads small
+    splits {
+        abi {
+            isEnable = true
+            reset()
+            include("arm64-v8a", "armeabi-v7a", "x86_64")
+            isUniversalApk = true
+        }
+    }
+}
+
+// Kotlin guard for the pairing UI (ConnectScreen):
+//   val canWirelessPair = Build.VERSION.SDK_INT >= Build.VERSION_CODES.R
+//   if (!canWirelessPair) show only: Connect with root · Connect with Shizuku · Computer activation
+//
+// Manifest: ACCESS_BACKGROUND_LOCATION / FOREGROUND_SERVICE_SPECIAL_USE etc. are ignored on
+// API 29 and are harmless; FOREGROUND_SERVICE_SPECIAL_USE requires targetSdk 34 handling only.

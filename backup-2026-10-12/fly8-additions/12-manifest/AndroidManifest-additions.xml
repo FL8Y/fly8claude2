@@ -1,0 +1,26 @@
+<!-- Add inside <application> of FLY8's AndroidManifest.xml -->
+
+<!-- Home-screen shortcut target (09-shortcuts-folders-share/CloneShortcuts.kt) -->
+<activity
+    android:name="com.fly8.clone.ui.ShortcutLaunchActivity"
+    android:exported="true"
+    android:excludeFromRecents="true"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+<!-- "Share to app in FLY8" (09-shortcuts-folders-share/ShareToCloneActivity.kt) -->
+<activity
+    android:name="com.fly8.clone.ui.ShareToCloneActivity"
+    android:exported="true"
+    android:label="Share to app in FLY8"
+    android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+    <intent-filter>
+        <action android:name="android.intent.action.SEND" />
+        <action android:name="android.intent.action.SEND_MULTIPLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="*/*" />
+    </intent-filter>
+</activity>
+
+<!-- Pinned shortcuts need no permission. Recovery notifications reuse POST_NOTIFICATIONS,
+     which FLY8 already declares. Discord alerts, public-IP checks and update checks use
+     INTERNET, which FLY8 already declares. -->
