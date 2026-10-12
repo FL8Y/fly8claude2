@@ -1,0 +1,18 @@
+// FLY8 control server (runs as the shell user from assets/fly8_ctl.jar)
+// File: com/fly8/clone/server/ControlServer.java (FLY8 source)
+//
+// Today it accepts ONLY "roblox://placeId=<digits>" for the VIEW (rejoin) and launch
+// commands, so Android-profile clones reject private-server and low-player links with
+// "invalid rejoin target". Widen the pattern to exactly the three forms FLY8 now builds
+// (identical to JoinLinks.ALLOWED). Arguments are passed to `am start -d` as a list, not
+// through a shell, and every character class below is fixed, so nothing else gets in.
+
+-        private static final Pattern ROBLOX_URI = Pattern.compile("^roblox://placeId=\\d{1,19}$");
++        private static final Pattern ROBLOX_URI = Pattern.compile(
++            "^roblox://placeId=[1-9][0-9]{0,18}"
++          + "(?:&gameInstanceId=[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}"
++          + "|&privateServerLinkCode=[A-Za-z0-9_-]{1,256})?$"
++          + "|^roblox://navigation/share_links\\?code=[A-Za-z0-9_-]{1,256}&type=Server$");
+
+// After changing it, rebuild fly8_ctl.jar (it is a separate dex in assets/) and bump its
+// protocol/version so FLY8 restarts the old server after the update.
