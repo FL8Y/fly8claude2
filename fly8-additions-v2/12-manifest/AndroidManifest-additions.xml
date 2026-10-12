@@ -1,0 +1,37 @@
+<!-- Add inside <application> of FLY8's AndroidManifest.xml -->
+
+<!-- Home-screen shortcut target (09-shortcuts-folders-share/CloneShortcuts.kt).
+     It only starts an instance id that exists in FLY8's InstanceStore. -->
+<activity
+    android:name="com.fly8.clone.ui.ShortcutLaunchActivity"
+    android:exported="true"
+    android:excludeFromRecents="true"
+    android:noHistory="true"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+<!-- "Share to app in FLY8" (09-shortcuts-folders-share/ShareToCloneActivity.kt).
+     SEND only, like EysClone's ShareBridgeActivity; its own task so it never lands on top of FLY8's UI. -->
+<activity
+    android:name="com.fly8.clone.ui.ShareToCloneActivity"
+    android:exported="true"
+    android:excludeFromRecents="true"
+    android:taskAffinity="com.fly8.app.share"
+    android:label="Share to app in FLY8"
+    android:theme="@android:style/Theme.DeviceDefault.Dialog.NoActionBar">
+    <intent-filter>
+        <action android:name="android.intent.action.SEND" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="*/*" />
+    </intent-filter>
+</activity>
+
+<!-- Pinned shortcuts need no permission. Recovery notifications reuse POST_NOTIFICATIONS,
+     which FLY8 already declares. Discord alerts, public-IP checks and update checks use
+     INTERNET, which FLY8 already declares.
+
+     Assets to add under app/src/main/assets/help/ (your own text):
+       how-to-use.txt, terms.txt, privacy.txt, whats-new.txt
+
+     Privacy text: FLY8's About screen says "It makes no network calls of its own except
+     Wireless debugging". Discord alerts, public-IP checks and update checks are new,
+     opt-in network calls; update that sentence when you ship them. -->
