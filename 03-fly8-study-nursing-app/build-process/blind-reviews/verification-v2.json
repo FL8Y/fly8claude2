@@ -1,0 +1,793 @@
+[
+ {
+  "id": "np1-001",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Straight definition of secondary prevention (screening)."
+ },
+ {
+  "id": "np1-002",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Shared open well detail plus 'acute cluster' makes the outbreak option obvious."
+ },
+ {
+  "id": "np1-003",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np1-004",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-005",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-006",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Classic open-ended therapeutic response; distractors are textbook blocking responses."
+ },
+ {
+  "id": "np1-007",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-008",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-009",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Other three options are labelled stable/routine, so only one is unstable."
+ },
+ {
+  "id": "np1-010",
+  "blindAnswer": 1,
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np1-011",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-012",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-013",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-014",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-015",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np1-016",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "COPAR first phase (integration) is recall."
+ },
+ {
+  "id": "np1-017",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np1-018",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Herd immunity definition; distractors clearly false."
+ },
+ {
+  "id": "np1-019",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-020",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np2-001",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-002",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-003",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np2-004",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Only one client has an unstable finding; others are explicitly controlled/routine."
+ },
+ {
+  "id": "np2-005",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-006",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-007",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-008",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [
+   "vignette-gives-away-answer",
+   "real-exam-looks-recalled"
+  ],
+  "note": "Textbook tripod/drooling epiglottitis picture with the classic 'do not examine throat' answer."
+ },
+ {
+  "id": "np2-009",
+  "blindAnswer": 0,
+  "confidence": 4,
+  "difficulty": 4,
+  "defects": []
+ },
+ {
+  "id": "np2-010",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np2-011",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-012",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Prone sleeping is the obvious single wrong statement."
+ },
+ {
+  "id": "np2-013",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Direct recall of RhoGAM indication."
+ },
+ {
+  "id": "np2-014",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np2-015",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [
+   "recall-only",
+   "real-exam-looks-recalled"
+  ],
+  "note": "Classic 'no vaginal exam in suspected placenta previa' item."
+ },
+ {
+  "id": "np2-016",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-017",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Vignette states the shallow latch, so the fix is obvious."
+ },
+ {
+  "id": "np2-018",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-019",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-020",
+  "blindAnswer": 2,
+  "confidence": 4,
+  "difficulty": 4,
+  "defects": []
+ },
+ {
+  "id": "np3-001",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-002",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-003",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Only one client has a new unstable finding; others are explicitly baseline/routine."
+ },
+ {
+  "id": "np3-004",
+  "blindAnswer": 3,
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np3-005",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Airborne precaution recall."
+ },
+ {
+  "id": "np3-006",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "C. diff soap-and-water recall."
+ },
+ {
+  "id": "np3-007",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-008",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-009",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np3-010",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-011",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Gas exchange over psychosocial/knowledge/risk diagnoses is rote; 'retained secretions' is not supported by the vignette."
+ },
+ {
+  "id": "np3-012",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-013",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-014",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-015",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "'Asks about everything except warning signs' points straight at the answer."
+ },
+ {
+  "id": "np3-016",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-017",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only",
+   "vignette-gives-away-answer"
+  ],
+  "note": "Vignette says 'compares the results with the goal', which is the definition of evaluation."
+ },
+ {
+  "id": "np3-018",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-019",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Do-not-clamp chest tube is rote recall."
+ },
+ {
+  "id": "np3-020",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-001",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-002",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np4-003",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-004",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Earliest ICP sign = LOC change is rote recall."
+ },
+ {
+  "id": "np4-005",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Seizure first aid recall; distractors are known myths."
+ },
+ {
+  "id": "np4-006",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-007",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-008",
+  "blindAnswer": 0,
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-009",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np4-010",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-011",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Addison lab pattern recall."
+ },
+ {
+  "id": "np4-012",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-013",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-014",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-015",
+  "blindAnswer": 1,
+  "confidence": 3,
+  "difficulty": 4,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Pain on passive movement + paresthesia unrelieved by opioid already signal compartment syndrome (notify now), but a quick neurovascular comparison first (option 2) is also defensible."
+ },
+ {
+  "id": "np4-016",
+  "blindAnswer": 3,
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np4-017",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-018",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-019",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-020",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Near-duplicate of np3-006 (C. diff soap-and-water, gown and gloves)."
+ },
+ {
+  "id": "np5-001",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-002",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Reflecting-feelings item; distractors are textbook blocking responses."
+ },
+ {
+  "id": "np5-003",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [],
+  "note": "Near-duplicate concept of np3-002 (snoring airway first, jaw thrust)."
+ },
+ {
+  "id": "np5-004",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-005",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "NMS features listed outright while the other three clients are described as stable or routine."
+ },
+ {
+  "id": "np5-006",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-007",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [],
+  "note": "Overlaps np5-020 (constant observation by assistant)."
+ },
+ {
+  "id": "np5-008",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-009",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-010",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-011",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [],
+  "note": "Near-duplicate of np3-018 (failing shock compensation); here distractors all show improvement so it is easy."
+ },
+ {
+  "id": "np5-012",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-013",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "BLS 'check responsiveness first' recall."
+ },
+ {
+  "id": "np5-014",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-015",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-016",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-017",
+  "blindAnswer": 2,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-018",
+  "blindAnswer": 3,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only",
+   "vignette-gives-away-answer"
+  ],
+  "note": "'Compares them with the goals' defines evaluation; near-duplicate of np3-017 and np4-019."
+ },
+ {
+  "id": "np5-019",
+  "blindAnswer": 0,
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-020",
+  "blindAnswer": 1,
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ }
+]
