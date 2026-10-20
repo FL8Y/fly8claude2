@@ -1,0 +1,46 @@
+name: build-apk
+
+# Builds an installable Android APK of the nursing study app (FLY8 Study).
+# Every run keeps its APK under the run's "Artifacts" section (Actions tab > the run > fly8-study-apk-<number>).
+# Runs on every push to main that changes the app, and on demand via "Run workflow".
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, apk-builds]
+    paths:
+      - '03-fly8-study-nursing-app/app/**'
+      - '.github/workflows/build-apk.yml'
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: 03-fly8-study-nursing-app/app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: 03-fly8-study-nursing-app/app/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - run: npm ci
+      - run: npm test
+      - name: Generate the native Android project
+        run: npx expo prebuild --platform android --no-install
+      - name: Build release APK (signed with the debug key, fine for personal install)
+        working-directory: 03-fly8-study-nursing-app/app/android
+        run: ./gradlew assembleRelease --no-daemon
+        env:
+          GRADLE_OPTS: -Dorg.gradle.jvmargs=-Xmx4g
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fly8-study-apk-${{ github.run_number }}
+          path: 03-fly8-study-nursing-app/app/android/app/build/outputs/apk/release/*.apk
+          if-no-files-found: error
+          retention-days: 90
