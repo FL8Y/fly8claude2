@@ -109,7 +109,12 @@
    3
   ],
   "rationale": "Visual field loss needs scanning teaching. Aphasia needs short phrases with gestures and time. Dysphagia needs a swallow check before feeding. Weakness needs range of motion and alignment.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (teach him to scan): with right visual field loss he must turn his head to see the right side. Speech or swallow measures do not help vision.",
+   "Right (short phrases with gestures): difficulty finding words is aphasia, so use short phrases, gestures and time. Do not shout or talk fast.",
+   "Right (hold intake until swallow check): a wet voice after sips signals aspiration risk, so nothing by mouth until the swallow screen is done. Airway safety comes first.",
+   "Right (range of motion and alignment): a weak arm needs positioning and range of motion to prevent contracture and shoulder injury. It does not affect swallowing or vision."
+  ],
   "strategy": "Match deficit to action",
   "archetype": "deficit matrix",
   "difficulty": 3,
@@ -154,7 +159,10 @@
    }
   ],
   "rationale": "Each hemisphere controls the opposite side of the body, and speech is dominated by the left hemisphere in most people, so left strokes cause right weakness and aphasia.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: the left hemisphere controls the right side of the body, so a left stroke causes right-sided weakness. Left-sided weakness would come from a right stroke.",
+   "Right: language is controlled by the left hemisphere in most people, so aphasia is common. Neglect of the left side and impulsive behavior come from right-sided strokes. Hearing loss is not typical."
+  ],
   "strategy": "Contralateral effects",
   "archetype": "cloze hemisphere",
   "difficulty": 2,
@@ -190,9 +198,9 @@
    1
   ],
   "optionRationales": [
-   "Aspiration sign.",
-   "Aspiration sign.",
-   "Motor deficit.",
+   "Aspiration risk: coughing after a sip shows liquid is entering the airway.",
+   "Aspiration risk: a wet voice after swallowing suggests liquid remains near the airway.",
+   "Not an aspiration sign: arm weakness is a motor deficit and does not show unsafe swallowing.",
    "Not an aspiration cue.",
    "Pressure to feed, not a finding.",
    "Alertness is adequate."
@@ -317,7 +325,12 @@
    0
   ],
   "rationale": "A pillow between the legs keeps abduction. Raised seats keep flexion under 90 degrees. Low soft chairs and crossing the legs risk dislocation.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (unsafe): a low soft chair makes the hip flex beyond 90 degrees, risking dislocation. Use a firm, raised seat.",
+   "Right (safe): a raised toilet seat keeps hip flexion below 90 degrees, so it protects the new joint.",
+   "Right (unsafe): crossing the legs brings the leg across the midline (adduction), which can dislocate the hip.",
+   "Right (safe): a pillow between the knees keeps the legs apart (abduction), which protects the new joint."
+  ],
   "strategy": "Hip precautions",
   "archetype": "safe unsafe",
   "difficulty": 2,
@@ -362,7 +375,10 @@
    }
   ],
   "rationale": "The femoral head stays seated when flexion stays within 90 degrees and the leg is kept abducted.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: hip flexion beyond 90 degrees can dislocate the joint after replacement. 45 is too low to be the limit, while 120 and 135 are unsafe.",
+   "Right: abduction keeps the head of the femur seated. Adduction and internal rotation are the movements that cause dislocation."
+  ],
   "strategy": "Positioning rule",
   "archetype": "cloze hip",
   "difficulty": 2,
@@ -399,12 +415,12 @@
    2
   ],
   "optionRationales": [
-   "Signal.",
-   "Signal.",
-   "Signal.",
-   "Normal.",
-   "Normal.",
-   "Correct precaution."
+   "Suggests dislocation: sudden sharp pain after turning suggests the joint has moved out of place.",
+   "Suggests dislocation: a shortened leg means the head of the prosthesis has moved out of its socket.",
+   "Suggests dislocation: an unusual leg position, often turned inward or outward, suggests the joint is out of place.",
+   "Not a sign of dislocation: a temperature of 37.2 C is normal and unrelated.",
+   "Not a sign of dislocation: present pedal pulses show circulation is intact and are unrelated.",
+   "Not a sign of dislocation: the wedge pillow is a correct precaution that prevents dislocation."
   ],
   "rationale": "Sudden sharp pain with movement, a shortened leg and an unusual leg position suggest dislocation. Temperature, pedal pulses, patient-controlled analgesia and the wedge pillow are unrelated.",
   "strategy": "Separate dislocation cues from normal data",
@@ -481,7 +497,7 @@
    "Treats the wrong problem: anticholinergics treat EPS, not NMS.",
    "Right: stopping the antipsychotic is the first treatment step.",
    "Treats the symptom: fever without stopping the cause.",
-   "Under-reaction."
+   "Wrong: reassuring him and encouraging fluids under-reacts to a life-threatening reaction that needs the drug held and the provider called."
   ],
   "rationale": "Fever, severe rigidity, unstable blood pressure, sweating and confusion after a dose increase are NMS, a life-threatening reaction. The drug is held and the provider called immediately; cooling and fluids follow.\nFlip: if he had rigidity with no fever and stable vital signs, an anticholinergic for pseudoparkinsonism would be reasonable.",
   "strategy": "Hold the drug and escalate",
@@ -527,7 +543,12 @@
    0
   ],
   "rationale": "Pacing and an urge to move is akathisia, shuffling gait with pill-rolling is pseudoparkinsonism, lip smacking and worm-like tongue after months is tardive dyskinesia, and early neck twisting is acute dystonia.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (akathisia): restless pacing and being unable to sit still is the picture of akathisia, not a tremor or a muscle spasm.",
+   "Right (pseudoparkinsonism): shuffling gait with pill-rolling tremor mimics Parkinson disease and is drug-induced.",
+   "Right (tardive dyskinesia): lip smacking and tongue movements after months of therapy are late, often permanent movements. Report them early.",
+   "Right (acute dystonia): sudden neck twisting and upward gaze within days is an emergency spasm. It responds to anticholinergic drugs."
+  ],
   "strategy": "Link sign to syndrome",
   "archetype": "EPS matrix",
   "difficulty": 3,
@@ -571,7 +592,10 @@
    }
   ],
   "rationale": "The causative drug is stopped and the client is cooled and hydrated while the provider manages complications.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: the causative antipsychotic must be stopped. Continuing or doubling it worsens neuroleptic malignant syndrome.",
+   "Right: supportive care with cooling and hydration treats the high fever and muscle breakdown. Restricting fluids harms the kidneys, and another antipsychotic dose repeats the cause."
+  ],
   "strategy": "Remove the cause and support",
   "archetype": "cloze NMS",
   "difficulty": 3,
@@ -609,12 +633,12 @@
    3
   ],
   "optionRationales": [
-   "Systemic.",
-   "Severe rigidity.",
+   "Points to NMS: a temperature of 39.6 C is a whole-body feature, not seen with simple EPS.",
+   "Points to NMS: severe muscle rigidity is a hallmark of NMS, whereas EPS stiffness is milder.",
    "Autonomic instability.",
    "Altered mental state.",
-   "Dystonia.",
-   "Dystonia."
+   "Not for NMS: a twisted neck on day 3 was dystonia, an earlier EPS effect.",
+   "Not for NMS: a thick tongue on day 3 was dystonia, an earlier EPS effect."
   ],
   "rationale": "High fever, severe rigidity, unstable blood pressure and confusion are systemic features of NMS. The earlier neck twisting and thick tongue are dystonia from day 3.",
   "strategy": "Systemic signs separate NMS from EPS",
@@ -689,9 +713,9 @@
   ],
   "optionRationales": [
    "Counts the trunk only.",
-   "Right: 18% plus 9%.",
+   "Right: the front of the trunk is 18% and one entire arm is 9%, which add to 27%.",
    "Counts both arms or both sides of the trunk.",
-   "Overestimate."
+   "Wrong: 45% overestimates the burn and does not match the areas described."
   ],
   "rationale": "In an adult the front of the trunk is 18% and one entire arm is 9%, giving 27%.",
   "strategy": "Apply the rule of nines",
@@ -734,7 +758,11 @@
    2
   ],
   "rationale": "Superficial burns are red, dry and painful; partial-thickness burns blister and are very painful; full-thickness burns are leathery or charred and painless because the nerve endings are destroyed.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right (superficial): red, dry and painful with no blisters involves only the top layer. Blistering would mean partial thickness.",
+   "Right (partial thickness): blisters, weeping and severe pain mean the deeper layer is injured but nerve endings still work.",
+   "Right (full thickness): white or leathery skin without pain means nerve endings are destroyed. A painless burn is more serious, not less."
+  ],
   "strategy": "Depth by appearance and pain",
   "archetype": "depth matrix",
   "difficulty": 3,
@@ -778,7 +806,10 @@
    }
   ],
   "rationale": "Fluid formulas use burn size and weight, and urine output is the key bedside indicator of adequate resuscitation.",
-  "optionRationales": [],
+  "optionRationales": [
+   "Right: burn fluid formulas use the percentage of body surface area burned and weight. Dressings and time since rescue alone do not set the volume.",
+   "Right: urine output is the bedside sign of adequate fluid resuscitation. Skin color alone is unreliable and oral intake is not used in a major burn."
+  ],
   "strategy": "Monitor perfusion by urine output",
   "archetype": "cloze fluids",
   "difficulty": 3,
@@ -816,11 +847,11 @@
    3
   ],
   "optionRationales": [
-   "Airway swelling.",
-   "Heat exposure.",
-   "Smoke exposure.",
-   "Enclosed fire.",
-   "Not an airway sign.",
+   "Suggests inhalation injury: a hoarse voice shows the airway is swelling.",
+   "Suggests inhalation injury: singed nasal hairs show he breathed in hot air.",
+   "Suggests inhalation injury: soot around the mouth shows he breathed in smoke.",
+   "Suggests inhalation injury: being trapped in a closed room means he breathed smoke in an enclosed space.",
+   "Not an airway sign: a burn on the arm does not show injury to the airway.",
    "Can be falsely normal."
   ],
   "rationale": "Hoarse voice, singed nasal hairs, soot around the mouth and a closed-space fire are the classic cues. Burns on the arm and a normal oximeter reading do not exclude or define it.",
