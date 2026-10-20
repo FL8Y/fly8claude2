@@ -1,0 +1,1179 @@
+[
+ {
+  "id": "np2-0021",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0022",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0023",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "Many PH reviewers teach a FULL bladder for amniocentesis before 20 weeks (to lift the uterus) and an empty one after 20 weeks, so at 15 weeks option 0 is what those sources expect."
+ },
+ {
+  "id": "np2-0024",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Textbook abruptio cluster (board-like uterus, dark scant blood, shock) with no competing interpretation."
+ },
+ {
+  "id": "np2-0025",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np2-0026",
+  "blind": [
+   0
+  ],
+  "confidence": 3,
+  "difficulty": 4,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Many sources list lateral repositioning (option 1) as the first action for late decelerations; stop-oxytocin-first is also widely taught."
+ },
+ {
+  "id": "np2-0027",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0028",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0029",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0030",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0031",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0032",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Pure recall of the suboccipitobregmatic diameter."
+ },
+ {
+  "id": "np2-0033",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Nitrazine colour recall."
+ },
+ {
+  "id": "np2-0034",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0035",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0036",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0037",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Two distractors restate the symptoms the vignette calls current and mild."
+ },
+ {
+  "id": "np2-0038",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np2-0039",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0040",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [],
+  "note": "Current guidance allows early ambulation once anticoagulated; bed rest is the older PH reviewer answer."
+ },
+ {
+  "id": "np2-0041",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Abortion classification recall."
+ },
+ {
+  "id": "np2-0042",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0043",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0044",
+  "blind": [
+   0,
+   3,
+   4,
+   5
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0045",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0046",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0047",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0048",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0049",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "All three toxicity signs (RR 10, absent reflexes, low urine) are given at once, so no judgment is needed."
+ },
+ {
+  "id": "np2-0050",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0051",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0052",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0053",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Taking-in phase recognition."
+ },
+ {
+  "id": "np2-0054",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0055",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0001",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0002",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0003",
+  "blind": [
+   0,
+   2,
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Modifiable vs non-modifiable risk list."
+ },
+ {
+  "id": "np3-0004",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0005",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0006",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np3-0007",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0008",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Beck's triad stated in full."
+ },
+ {
+  "id": "np3-0009",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0010",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0011",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0012",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0013",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0014",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0015",
+  "blind": [
+   2
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "In Buerger disease nicotine in any form (including gum) must stop, so option 2 is the clear error; if the writer keyed the walking-to-cramp option, that is the standard claudication programme and not an error."
+ },
+ {
+  "id": "np3-0016",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Full tension-pneumothorax triad given."
+ },
+ {
+  "id": "np3-0017",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0018",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0019",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0020",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0021",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0022",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0023",
+  "blind": [
+   0,
+   1,
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Standard nitroglycerin teaching list."
+ },
+ {
+  "id": "np3-0024",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0025",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0026",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0027",
+  "blind": [
+   0
+  ],
+  "confidence": 3,
+  "difficulty": 4,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Slowing the running dextrose to keep-open (option 1) removes the cause and is also a defensible first action for circulatory overload."
+ },
+ {
+  "id": "np3-0028",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0029",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": [],
+  "note": "Option 0 (culture before antibiotic) is a common 'first' answer, but SpO2 90% makes oxygenation first."
+ },
+ {
+  "id": "np3-0030",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0031",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0032",
+  "blind": [
+   0,
+   1,
+   2,
+   5
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0033",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0034",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0035",
+  "blind": [
+   0
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "Current AHA advice is good oral hygiene including regular flossing; 'no flossing' after a prosthetic valve is older teaching."
+ },
+ {
+  "id": "np3-0036",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0037",
+  "blind": [
+   1
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np3-0038",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0039",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0040",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0041",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0042",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Vignette already describes leaning-forward relief and a friction rub, which is the keyed option word for word."
+ },
+ {
+  "id": "np3-0043",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0044",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0045",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0046",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0047",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0048",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0049",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0050",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Pursed-lip breathing technique recall."
+ },
+ {
+  "id": "np3-0126",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0127",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0128",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Potassium-sparing diuretic recall."
+ },
+ {
+  "id": "np3-0129",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0130",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0131",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0132",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0133",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0134",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0135",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0136",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0137",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0138",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Acid-ash diet for struvite stones."
+ },
+ {
+  "id": "np3-0139",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Calcium-phosphate inverse relationship."
+ },
+ {
+  "id": "np3-0140",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0141",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "near-duplicate-concept"
+  ],
+  "note": "Same isotonic-fluid-for-hypovolemia decision as np3-0132."
+ },
+ {
+  "id": "np3-0142",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0143",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 4,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Output lower than irrigation inflow suggests a clot-blocked catheter, where checking patency/manual irrigation comes before increasing inflow."
+ },
+ {
+  "id": "np3-0144",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0145",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0146",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Nephritic vs nephrotic recognition."
+ },
+ {
+  "id": "np3-0147",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "CKD GFR staging recall."
+ },
+ {
+  "id": "np3-0148",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0149",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Hypercalcemia sign recall."
+ },
+ {
+  "id": "np3-0150",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0151",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0152",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0153",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "near-duplicate-concept"
+  ],
+  "note": "Same BPH retention -> bladder drainage decision as np3-0142."
+ },
+ {
+  "id": "np3-0154",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0155",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0156",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0157",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0158",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0159",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "doubtful-fact",
+   "unrealistic"
+  ],
+  "note": "A client on a vasopressor would get CRRT in most units, and she would not be doing PD herself while acutely ill."
+ },
+ {
+  "id": "np3-0160",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ }
+]

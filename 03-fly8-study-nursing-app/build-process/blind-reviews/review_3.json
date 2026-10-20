@@ -1,0 +1,1165 @@
+[
+ {
+  "id": "np3-0161",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0162",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Drug-purpose recall with no decision."
+ },
+ {
+  "id": "np3-0163",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0164",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0165",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0166",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "The vignette prints the normal ranges, so this is a lookup, not judgment."
+ },
+ {
+  "id": "np3-0167",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0168",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0169",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0170",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0171",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "The vitamin D plan is attributed to a neighbour, flagging it as the error."
+ },
+ {
+  "id": "np3-0172",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "ABG pattern matching."
+ },
+ {
+  "id": "np3-0173",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0174",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0175",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0076",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0077",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0078",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0079",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0080",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0081",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0082",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0083",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0084",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Benign vs malignant feature recall."
+ },
+ {
+  "id": "np3-0085",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0086",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0087",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "TNM/grade definition recall."
+ },
+ {
+  "id": "np3-0088",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "The vignette itself says she will ignore the mole."
+ },
+ {
+  "id": "np3-0089",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Drug-class property recall."
+ },
+ {
+  "id": "np3-0090",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0091",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0092",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0093",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Lead aprons give little protection from implant gamma rays and many sources omit them; triple flushing is an I-131 rule, so whether option 0 is keyed is unclear."
+ },
+ {
+  "id": "np3-0094",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0095",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0096",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0097",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0098",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0099",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0100",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0101",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "unrealistic"
+  ],
+  "note": "Options 2 and 3 describe workers who are not in the vignette, so only two options are real."
+ },
+ {
+  "id": "np3-0102",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "With a first-degree relative diagnosed at 61, current guidance favours colonoscopy (from 40-45) over yearly stool test plus DRE; DRE is no longer a screening test."
+ },
+ {
+  "id": "np3-0103",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0104",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0105",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0106",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "unrealistic"
+  ],
+  "note": "Vignette says incentive spirometer, but every option describes cough-and-deep-breathing technique."
+ },
+ {
+  "id": "np3-0107",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0108",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0109",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0110",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0111",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Suture material recall."
+ },
+ {
+  "id": "np3-0112",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0113",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0114",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Spaulding classification recall."
+ },
+ {
+  "id": "np3-0115",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0116",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np3-0117",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0118",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0119",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Surgical position recall."
+ },
+ {
+  "id": "np3-0120",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0121",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0122",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "No-cough-after-craniotomy rule."
+ },
+ {
+  "id": "np3-0123",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0124",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "near-duplicate-concept"
+  ],
+  "note": "Same suspected-DVT recognise-and-report decision as np3-0085."
+ },
+ {
+  "id": "np3-0125",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "near-duplicate-concept"
+  ],
+  "note": "Same post-op PE first action (HOB up, oxygen, call) as np3-0063."
+ },
+ {
+  "id": "np3-0051",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0052",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0053",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0054",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0055",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0056",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Test-to-disease recall."
+ },
+ {
+  "id": "np3-0057",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0058",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0059",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0060",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0061",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0062",
+  "blind": [
+   1
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Multiloculated empyema usually needs VATS/open drainage (option 2); only the word 'bedside' points to a chest tube."
+ },
+ {
+  "id": "np3-0063",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0064",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "PH reviewers commonly quote WBC 5,000-10,000/mm3, so 10,800 (option 2) is also abnormal."
+ },
+ {
+  "id": "np3-0065",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0066",
+  "blind": [
+   0,
+   2,
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0067",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0068",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0069",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0070",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0071",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "The Schilling test is discontinued in most settings; the timed-collection rule is fine but the context is dated."
+ },
+ {
+  "id": "np3-0072",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np3-0073",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0074",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np3-0075",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0026",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0027",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0028",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0029",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0030",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0031",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "'Neck feels a little tight' makes inspecting the neck for swelling/bleeding (option 0) a defensible first action."
+ },
+ {
+  "id": "np4-0032",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0033",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0034",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0035",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0036",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Fluids-first in DKA recall."
+ },
+ {
+  "id": "np4-0037",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0038",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0039",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0040",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0041",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0042",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0043",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0044",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [],
+  "note": "Halos are an angle-closure symptom, not typical of chronic open-angle glaucoma."
+ },
+ {
+  "id": "np4-0045",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0046",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0047",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0048",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0049",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np4-0050",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0001",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0002",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0003",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0004",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0005",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ }
+]

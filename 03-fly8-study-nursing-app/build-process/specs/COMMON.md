@@ -1,0 +1,7 @@
+# Common rules for every Wave-1 builder (FLY8 Study app, folder "FLY8 Study")
+1. Setup: `git merge --ff-only ccr-13ebab09-xygfde` (your worktree may start from main), then `cd "FLY8 Study" && npm install`.
+2. Read `FLY8 Study/docs/MASTER_PLAN.md`: section 2 (non-negotiables), 4 (schema and scoring), and your task row in section 7. The plan is the contract. Owner goal: a Tangerine-style, offline, MCQ-only PNLE practice app; NO flashcards; match function and flow only, never copy any reference app's code, art, brand, names or question content.
+3. Own ONLY the files listed for your task. Do not edit anything else (another builder owns it). If you truly need a change elsewhere, say so in your report instead.
+4. Checkpoint: commit your first working file within 20 minutes and then after every file whose tests pass (git add only your files; commit message with no model name). If you see a usage-limit warning, commit and stop.
+5. Verify before you finish: `npx tsc --noEmit` and `npx vitest run` (report exact pass counts and any failures), and `CI=1 npx expo export --platform android --output-dir <temp dir outside the repo>` if you changed app code (delete the dir after). Never claim a test ran without the result.
+6. Files under 500 lines, TypeScript, match surrounding code style, tests in tests/. Label claims OBSERVED / INFERRED / UNKNOWN. Final report under 120 words: files, test counts, what is unverified.

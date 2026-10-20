@@ -1,0 +1,1137 @@
+[
+ {
+  "id": "np4-0006",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0007",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [],
+  "note": "The best option still delays reporting (recheck first) for a rigid abdomen with BP 88/52; the distractors are weak."
+ },
+ {
+  "id": "np4-0008",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0009",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0010",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0011",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0012",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0013",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0014",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0015",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Sucralfate timing recall."
+ },
+ {
+  "id": "np4-0016",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0017",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Kock pouch emptying recall."
+ },
+ {
+  "id": "np4-0018",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0019",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0020",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Definition of vagotomy and pyloroplasty."
+ },
+ {
+  "id": "np4-0021",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0022",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0023",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0024",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0025",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0051",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0052",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0053",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0054",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0055",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0056",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0057",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0058",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0059",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0060",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0061",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0062",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0063",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0064",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0065",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0066",
+  "blind": [
+   1
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "Anticholinergics are mainly contraindicated in angle-closure glaucoma; in controlled open-angle glaucoma benztropine is a caution, not a clear error."
+ },
+ {
+  "id": "np4-0067",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0068",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0069",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0070",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0071",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0072",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0073",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0074",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Weber/Rinne interpretation recall."
+ },
+ {
+  "id": "np4-0075",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0076",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0077",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0078",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0079",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0080",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0081",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0082",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0083",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0084",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [],
+  "note": "Same DVT decision as np2-0040 and np3-0124 in other chunks."
+ },
+ {
+  "id": "np4-0085",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0086",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0087",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Cane on the unaffected side."
+ },
+ {
+  "id": "np4-0088",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0089",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0090",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0091",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np4-0092",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0093",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0094",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0095",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0096",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0097",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0098",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Otitis externa sign recall."
+ },
+ {
+  "id": "np4-0099",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np4-0100",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0001",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np5-0002",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0003",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-0004",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0005",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0006",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0007",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-0008",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0009",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0010",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0011",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0012",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0013",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0014",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0015",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0016",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0017",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0018",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "A dissociated client may not engage until grounded, so starting grounding (option 0) is also defensible before the safety question."
+ },
+ {
+  "id": "np5-0019",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0020",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0021",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0022",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0023",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "near-duplicate-concept"
+  ],
+  "note": "Same acknowledge-the-feeling-without-arguing decision as np5-0002."
+ },
+ {
+  "id": "np5-0024",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only",
+   "vignette-gives-away-answer"
+  ],
+  "note": "Only one client is described as able to concentrate."
+ },
+ {
+  "id": "np5-0025",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0026",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0027",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0028",
+  "blind": [
+   0,
+   1,
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0029",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0030",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0031",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0032",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0033",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0034",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0035",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0036",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-0037",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0038",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0039",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0040",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0041",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0042",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0043",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0044",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np5-0045",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0046",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "near-duplicate-concept"
+  ],
+  "note": "Same acute delirium -> look for physical cause decision as np5-0013."
+ },
+ {
+  "id": "np5-0047",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0048",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np5-0049",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "Immediate-release methylphenidate labelling says 30-45 minutes before meals, so option 0 matches the label while nursing texts say give with/after breakfast."
+ },
+ {
+  "id": "np5-0050",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ }
+]

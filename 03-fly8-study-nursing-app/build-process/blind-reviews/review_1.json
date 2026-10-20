@@ -1,0 +1,1217 @@
+[
+ {
+  "id": "np1-0001",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0002",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0003",
+  "blind": [
+   2
+  ],
+  "confidence": 3,
+  "difficulty": 4,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Diabetic foot teaching is taught as tertiary (limit complications) in some texts but primary prevention of ulcer/secondary in others; option 0 is defensible."
+ },
+ {
+  "id": "np1-0004",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Showing midwives a form and watching them complete it also fits the supervisor role (option 0)."
+ },
+ {
+  "id": "np1-0005",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0006",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0007",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Pure definition of foreseeable crisis/anticipated stress point."
+ },
+ {
+  "id": "np1-0008",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Definition recall: evaluation parameters set during planning."
+ },
+ {
+  "id": "np1-0009",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "'Abdomen still looks large' points straight at checking for a second baby."
+ },
+ {
+  "id": "np1-0010",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only",
+   "vignette-gives-away-answer"
+  ],
+  "note": "'Inability to pay' maps directly to health financing."
+ },
+ {
+  "id": "np1-0011",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0012",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0013",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Vignette repeats the word 'accountable' that appears only in the keyed option."
+ },
+ {
+  "id": "np1-0014",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0015",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Every other element is described as fine, leaving only sanitation."
+ },
+ {
+  "id": "np1-0016",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np1-0017",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0018",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0019",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Standard SMART-objective recognition."
+ },
+ {
+  "id": "np1-0020",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": []
+ },
+ {
+  "id": "np1-0021",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0022",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0023",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "near-duplicate-concept"
+  ],
+  "note": "Same ORS return-demonstration idea as np1-0019."
+ },
+ {
+  "id": "np1-0024",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0025",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Vignette explicitly excludes population-level planning, which removes the main distractors."
+ },
+ {
+  "id": "np1-0026",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0027",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Formula recall; the 'general health' line in the vignette is not what the stem asks."
+ },
+ {
+  "id": "np1-0028",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0029",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "Exact DOH postpartum visit schedule (24h/3-5 days/6 weeks) varies by source."
+ },
+ {
+  "id": "np1-0030",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0031",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 4,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "The marasmic child also meets SAM criteria (severe wasting) and needs referral; choosing only the edematous child rests on an unstated complicated-vs-uncomplicated rule."
+ },
+ {
+  "id": "np1-0032",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": [],
+  "note": "'Uses no cost devices' is oddly worded since BBT needs a thermometer."
+ },
+ {
+  "id": "np1-0033",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0034",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0035",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0036",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0037",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Live-vaccine-in-immunosuppression fact with no real decision."
+ },
+ {
+  "id": "np1-0038",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0039",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0040",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0041",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [],
+  "note": "Option 2 describes waiting 1-2 minutes, which the vignette never says the student did."
+ },
+ {
+  "id": "np1-0042",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 3,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Tests memorised home-visit step order."
+ },
+ {
+  "id": "np1-0043",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 4,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "Which COPAR phase includes officer election vs service delivery differs between review sources."
+ },
+ {
+  "id": "np1-0044",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0045",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only",
+   "vignette-gives-away-answer"
+  ],
+  "note": "Vignette is a textbook definition of PAR."
+ },
+ {
+  "id": "np1-0046",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0047",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0048",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "Other three placements are obviously wrong."
+ },
+ {
+  "id": "np1-0049",
+  "blind": [
+   1
+  ],
+  "confidence": 3,
+  "difficulty": 4,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Reporting the suspected outbreak (option 3) is also a defensible first action; removing the food should also mean keeping samples."
+ },
+ {
+  "id": "np1-0050",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0051",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0052",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0053",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0054",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0055",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0056",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0057",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0058",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0059",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0060",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": [
+   "recall-only"
+  ],
+  "note": "BEmOC signal-function list recall."
+ },
+ {
+  "id": "np1-0061",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0062",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0063",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0064",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0065",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0066",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0067",
+  "blind": [
+   1
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "doubtful-fact",
+   "recall-only"
+  ],
+  "note": "COPT is the PH reviewer answer, but WHO treats Kato-Katz stool microscopy as the standard diagnostic, so option 2 is arguable."
+ },
+ {
+  "id": "np1-0068",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0069",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0070",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0071",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0072",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0073",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0074",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "VZIG window is 10 days in current CDC guidance but 96 hours in older texts."
+ },
+ {
+  "id": "np1-0075",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0076",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0077",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0078",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0079",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0080",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0081",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "IMCI for chest indrawing says first-dose antibiotic and urgent referral, so option 2 is defensible; the keyed airway option is also the longest."
+ },
+ {
+  "id": "np1-0082",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0083",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0084",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0085",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np1-0086",
+  "blind": [
+   3
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "recall-only",
+   "doubtful-fact"
+  ],
+  "note": "Exact length of bed rest in diphtheria (2-3 weeks) differs by source."
+ },
+ {
+  "id": "np1-0087",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0088",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0089",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0090",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "near-duplicate-concept"
+  ],
+  "note": "Cholera rehydration decision overlaps np1-0080."
+ },
+ {
+  "id": "np1-0091",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0092",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0093",
+  "blind": [
+   1
+  ],
+  "confidence": 4,
+  "difficulty": 1,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "One benzathine penicillin dose is full treatment for primary syphilis, so 'first injection' and 'full treatment' imply a series that standard teaching does not need."
+ },
+ {
+  "id": "np1-0094",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0095",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0096",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Vignette states the vector breeds in clean standing water, which gives away the answer."
+ },
+ {
+  "id": "np1-0097",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np1-0098",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0099",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np1-0100",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0001",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0002",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np2-0003",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np2-0004",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [],
+  "note": "Topic label talks about hormone cause but the stem only asks for gum-care teaching."
+ },
+ {
+  "id": "np2-0005",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0006",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0007",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0008",
+  "blind": [
+   0
+  ],
+  "confidence": 2,
+  "difficulty": 4,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "A multigravida pushing 1 hour with steady descent (option 2) is also within normal second-stage limits, so two options are correct."
+ },
+ {
+  "id": "np2-0009",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0010",
+  "blind": [
+   2
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0011",
+  "blind": [
+   0,
+   4,
+   5
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0012",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "recall-only"
+  ]
+ },
+ {
+  "id": "np2-0013",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": [
+   "vignette-gives-away-answer"
+  ],
+  "note": "Textbook molar-pregnancy cluster with no competing interpretation."
+ },
+ {
+  "id": "np2-0014",
+  "blind": [
+   0
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0015",
+  "blind": [
+   0
+  ],
+  "confidence": 4,
+  "difficulty": 2,
+  "defects": [
+   "doubtful-fact"
+  ],
+  "note": "A full bladder is usually needed only for early transabdominal scans, not at 24 weeks, so the keyed preparation for the 24-week client is questionable."
+ },
+ {
+  "id": "np2-0016",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 2,
+  "defects": []
+ },
+ {
+  "id": "np2-0017",
+  "blind": [
+   3
+  ],
+  "confidence": 3,
+  "difficulty": 3,
+  "defects": [
+   "ambiguous"
+  ],
+  "note": "Mentum-anterior face presentations can deliver vaginally; the vignette does not give chin position."
+ },
+ {
+  "id": "np2-0018",
+  "blind": [
+   2
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0019",
+  "blind": [
+   3
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ },
+ {
+  "id": "np2-0020",
+  "blind": [
+   1
+  ],
+  "confidence": 5,
+  "difficulty": 1,
+  "defects": []
+ }
+]

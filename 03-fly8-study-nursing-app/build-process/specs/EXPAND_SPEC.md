@@ -1,0 +1,13 @@
+# Expander spec (round 2): bring the ORIGINAL preset notes up to the depth of the new ones
+
+Context: the FLY8 Study app (PNLE nursing exam, Philippines) has 103 original preset notes that were written from general knowledge. 690 newer notes were built from the owner's review handouts and are richer (more facts, tables turned into bullets, priority-order reasoning). The owner wants the ORIGINAL notes expanded to that standard, using the handouts, and the handouts' topics all covered.
+
+Inputs (read-only): your assigned existing file of original notes in /home/user/readthischatgpt/FLY8 Study/data/presets/ ; the handout text files in D/src/ (grep for what each note needs; the files named in your assignment are the main ones); D/all_titles.txt ("AREA | Title | id": every existing note, new and old) for links and to avoid duplicates; the newer notes in data/presets/*.json for style (e.g. np1-comm.json, np5-psych-c.json).
+
+For EACH note in your file, output a replacement with the SAME id, title, area, tags, priority: keep everything correct in the old body, then expand: add the handout facts (numbers, classifications, drug lists, schedules, stages, mnemonics if short and well known) that belong to that topic; add what the exam tests and the traps; add "## How to reason about it" (cause -> finding -> priority action, with the reason for the order: ABC, Maslow, safety, assess before act, least invasive first); strengthen the "## Check against your textbook" section (keep old flags, add doubtful handout facts). Aim for roughly 1.5-2.5x the old length where the handouts have material; never pad. Keep [[links]] valid and add links to the new related notes (look up titles in all_titles.txt).
+Then ALSO: any topic in the handout(s) for your area that no existing note covers (check all_titles.txt and grep bodies) gets a NEW note, ids "<prefix>-x-<slug>", unique titles not in all_titles.txt.
+
+Writing rules: own words, never copy handout sentences, no review-center branding, no markdown tables, no H1. Never invent doses, lab ranges or statistics; numbers only if standard or from the handout, doubtful ones listed under the check section. Do not recall real board-exam questions. Not advice for a real patient.
+
+Schema: JSON array of {"id","area","title","body","tags":[],"priority","outlineRefs":[],"aiWritten":true,"nurseReviewed":false}. Validate JSON and every [[link]] (title must exist in all_titles.txt or your file) with a python check before finishing.
+Output: ONE file at the OUTPUT path (valid JSON array: all replacements + new notes). Do not touch the repo or other files. Final report under 100 words: notes expanded, new notes added, notable handout facts that contradicted the old note.
