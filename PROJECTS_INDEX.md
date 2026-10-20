@@ -10,3 +10,5 @@ This repo's new content is the nursing exam-prep app only.
 
 `recovery/` and `FLY8_Recovery_Except_01.zip` were already in this repo before and are unchanged.
 Not included (public repo): review-handout PDFs and extracted text. AI-written content is not nurse-reviewed; nothing has been run on a phone.
+
+Added later: `03-fly8-study-nursing-app/study-materials-from-other-branches/` (agent-written study notes that lived on other branches of the readthischatgpt repo: med-surg research, pediatric research, OR asepsis and infection-control notes, fundamentals) and `03-fly8-study-nursing-app/app-ci-workflows/` (the test and APK build workflows; copy into `.github/workflows/` to use them).
