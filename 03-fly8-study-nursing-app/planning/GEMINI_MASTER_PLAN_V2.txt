@@ -1,0 +1,368 @@
+=====================================================================
+00 MASTER PLAN v2 - FLY8 STUDY x GEMINI (READ THIS FIRST, IT REPLACES THE OLD ORDERS)
+Written by Claude for the owner, 2026-10-20
+=====================================================================
+This one document is the whole job, from sorting the owner's sources to finished,
+cross-checked review notes and new practice questions. Where any older doc in this
+workspace says something different, THIS document wins.
+(Older docs you may still read for context: "00 PROTOCOL - Claude x Gemini",
+"01 PNLE research notes", "02 Question archetypes", "08 Case study method".)
+
+USE GEMINI PRO (2.5 Pro / "Thinking"), NOT FLASH. Flash looped on the sort job.
+
+---------------------------------------------------------------------
+PART 0. HOW THIS RUNS "IN ONE GO"
+---------------------------------------------------------------------
+After the owner types GO you work through PHASE 1 to PHASE 6 in order, task after
+task, without waiting for new instructions. You stop only when:
+  (a) one reply is full (one batch per reply), then the owner types NEXT and you go on;
+  (b) a task is BLOCKED (log it, skip to the next task, keep going);
+  (c) the owner types STOP.
+The owner never has to explain the job again. NEXT always means "continue the plan".
+
+THE PROGRESS LOG (this is what stops loops)
+  Create ONE Google Doc in the workspace root named "00 GEMINI PROGRESS LOG".
+  After EVERY batch, add one line at the top:
+    <date time> | <task> | batch <n> | DONE/PARTIAL/BLOCKED | <ids or files done> | next: <what>
+  At the start of EVERY reply: read the newest 5 log lines and the newest doc in
+  "05 Claude receipts". Continue from "next:". Never redo anything the log says is DONE.
+
+ANTI-LOOP RULES (hard)
+  - Never call the same tool on the same file more than 2 times in one reply.
+  - If an action fails twice (move, open, create), write BLOCKED in the log with the exact
+    error and move on to the next item. Do not retry a third time.
+  - At most 10 file moves, or 3 notes, or 1 source extraction per reply.
+  - Never re-read a whole book. Read only the chapter for the current topic.
+  - If you notice you are repeating yourself, stop, write the log line, and end the reply.
+
+WHERE YOUR OUTPUT GOES
+  Write each batch as a NEW Google Doc in "04 Gemini outbox", titled "OUT <task> b<n>"
+  (example: "OUT N-101 b1"), containing your AGENT MESSAGE (PART 7). If you cannot create
+  docs, put the AGENT MESSAGE in your reply and the owner will export it.
+  Claude collects everything in the outbox when the owner says "check outbox", runs the
+  merge checker, pushes to GitHub, builds the APK and writes a receipt in "05 Claude receipts".
+  Read receipts and fix REJECTED items before new work.
+
+YOUR FOLDER RIGHTS
+  You may create folders and docs ONLY inside "FLY8 Study - Gemini Workspace".
+  You may MOVE files only out of "09 Sources inbox". Never delete or trash anything.
+  Never edit docs in 03, 05, 06, 07, 08 (read only). Never touch anything outside the workspace.
+
+
+---------------------------------------------------------------------
+PART 1. THE PROJECT IN 6 LINES
+---------------------------------------------------------------------
+FLY8 Study is the owner's Android review app for the Philippine Nurse Licensure Exam (PNLE).
+It holds ~974 review notes (JSON "packs") and about 1,000 practice questions. Claude codes the app.
+You expand and verify the content. The owner is a reviewee, not a coder, and not a nurse
+reviewer yet. Everything stays aiWritten:true and nurseReviewed:false.
+PNLE areas: NP1 Community Health Nursing; NP2 Mother, Child, Adolescent + Growth and Development;
+NP3 Surgery/Oxygenation/Fluids-Electrolytes/Infection-Immune/Cellular (cardio, respi, hema, onco,
+periop, renal, burns); NP4 Nutrition-GI, Metabolism-Endocrine, Perception-Coordination (neuro,
+eye/ear, ortho); NP5 Psychiatric + Life-threatening/Emergency/Disaster. Fundamentals, pharmacology,
+laws/ethics/management/research (GEN) run through all five.
+
+
+---------------------------------------------------------------------
+PART 2. THE ONE RULE THE OWNER CARES ABOUT MOST:
+        NURSING INTERVENTIONS ARE NOT THE DOCTOR'S INTERVENTIONS
+---------------------------------------------------------------------
+Every note must keep these three apart, under separate headings. Never mix them.
+
+  MEDICAL MANAGEMENT (the doctor's job; the nurse does NOT do this)
+    Diagnosing, prescribing drugs/IV fluids/diet, ordering lab tests and imaging, deciding on
+    and performing surgery or invasive procedures (thoracentesis, lumbar puncture, paracentesis,
+    central line insertion, intubation decisions). Write it as: "The physician ...".
+    The nurse's part in each of these goes under Collaborative interventions.
+
+  INDEPENDENT NURSING INTERVENTIONS (the nurse may do these WITHOUT an order)
+    Assessment and monitoring (vital signs, neuro checks, I&O, weight, skin, pain, LOC),
+    positioning, airway care within scope, safety (fall, seizure, bleeding, suicide precautions),
+    standard precautions and isolation per hospital policy, hygiene and comfort (non-drug),
+    nutrition/fluid encouragement within the diet ordered, health teaching, emotional support,
+    therapeutic communication, documentation, reporting changes to the physician,
+    referral to community programs, home and family care.
+
+  COLLABORATIVE (DEPENDENT) NURSING INTERVENTIONS (need a physician's order or a standing protocol)
+    Giving drugs, IV fluids, blood, oxygen therapy, inserting NGT/catheters, collecting ordered
+    specimens, preparing the patient for and assisting with procedures, post-procedure care.
+    Every line starts with "As ordered:" and says the NURSE'S part:
+    "As ordered: give <drug class> - check <what> before giving, watch for <adverse effect>,
+     hold and report if <finding>."
+
+  WHY IT MATTERS FOR THE PNLE (put this thinking into "Exam traps")
+    - "What should the nurse do FIRST?" is usually an independent nursing action (assess,
+      position, open the airway, ensure safety), not "give a drug" or "prepare for surgery".
+    - "Refer to / notify the physician" is right when the finding needs a medical decision and the
+      nurse has already done what is within nursing scope. It is wrong when an independent action
+      should come first, and wrong when it delays a life-saving step the nurse can take.
+    - A choice that makes the nurse diagnose, prescribe, change a dose or do a medical procedure
+      is out of scope, so it is wrong.
+    - Delegation: the RN does assessment, teaching, evaluation and unstable patients; stable,
+      routine, unchanging tasks can go to nursing aides/midwives within their scope.
+
+
+---------------------------------------------------------------------
+PART 3. NOTE STRUCTURES (THE MERGE CHECKER ENFORCES THESE HEADINGS AND ORDER)
+---------------------------------------------------------------------
+Markdown allowed in "body": "## " headings, paragraphs, "- " bullets, "1. " numbered lists,
+**bold**, *italic*, [[Wikilinks]] to exact existing note titles. No tables, HTML, images,
+code, "#" or "###". Body length 300 to 12,000 characters.
+
+A) DISEASE / CONDITION / CLINICAL PROBLEM NOTE  (exactly these 15 headings, this order)
+## What it is
+   1-3 sentences: definition, who gets it, why it matters on the PNLE.
+## Causative agent
+   Organism (genus/species and type) or cause/risk factors if not infectious. For communicable
+   diseases: mode of transmission, incubation period, period of communicability, vector or
+   reservoir found in the Philippines. Nursing concept with no agent: "Not applicable" + risk factors.
+## Main problem
+   The core pathophysiology in 1-3 sentences (the "why" behind the signs).
+## Initial manifestations
+   The early signs the nurse sees first. "(pathognomonic)" only if a source says so.
+## Other manifestations
+   Later, severe, complicating and danger signs that need referral.
+## Laboratory and diagnostic data
+   Test, expected abnormal result, screening vs confirmatory. Normal ranges only if a source gives them.
+## Medical management
+   What the physician does (PART 2). Short bullets starting "The physician ...".
+## Pharmacologic care
+   For each drug CLASS used: prototype drug names (generic; Philippine National Formulary names
+   when you can verify them), what it does in 1 line, then the NURSE'S responsibilities:
+   before (baseline to check, e.g. apical pulse), during (how it is given safely), after
+   (therapeutic effect, adverse effects, toxicity signs, when to hold and report), and teaching.
+   DOSES: only if a source you opened states it, written "per source: ...; verify against current
+   order/guideline". Otherwise write "dose per physician order".
+## Nursing diagnoses
+   2-5 NANDA-I style (problem related to cause as evidenced by signs), in priority order
+   (ABC, Maslow, safety). Mark the top one "(priority)".
+## Independent nursing interventions
+   Numbered, in priority order. "Action - rationale". Assessment first. No drugs here.
+## Collaborative nursing interventions
+   Numbered. Every line starts "As ordered:" and states the nurse's part (PART 2).
+## Philippine context
+   DOH program (e.g. EPI, NTP/DOTS, Dengue Prevention and Control Program, Rabies Prevention and
+   Control Program, IMCI, Philippine Integrated Disease Surveillance and Response), verified RA / DOH AO
+   numbers and names, Filipino terms (tigdas, bulutong), local exam traps.
+## Exam traps
+   3-5 bullets: classic PNLE confusions and the right thinking, including at least one
+   "nursing action vs doctor's action" trap and one priority trap (ABC / Maslow / safety).
+## References
+   2-5 numbered references you actually opened: "1. Author/Org. Title. Year or accessed date. URL"
+   For a book in the owner's Drive: "1. Hinkle & Cheever. Brunner & Suddarth's ... 15th ed. Chapter <n>.
+   (owner's library)". Never invent a page number, edition, URL, law number or year.
+## Check against your textbook
+   Keep the existing text, then add "UNVERIFIED: ..." for anything you could not confirm.
+
+B) DRUG-CLASS NOTE (pharmacology; GEN pack "gen-pharm.json")  (exactly these 11 headings)
+## What it is
+## Prototype drugs
+## Mechanism of action
+## Indications
+## Side and adverse effects
+## Contraindications and cautions
+## Nursing responsibilities      (before / during / after giving; what to hold and report)
+## Health teaching
+## Exam traps                    (include look-alike drugs, antidotes, toxicity signs)
+## References
+## Check against your textbook
+
+C) NON-DISEASE NOTE (programs, laws, concepts, procedures, growth and development, communication)
+   Use only the sections that fit, but always: "## What it is", "## Philippine context",
+   "## Exam traps", "## References", "## Check against your textbook".
+   Procedure notes: add "## Nurse's role before / during / after" and keep the doctor's part
+   under "## Physician's role" if a doctor performs it.
+
+PLAIN-WORDS RULE: short bullets, exam-ready, own words. Never copy textbook or reviewer
+paragraphs; short facts and official names are fine.
+
+
+---------------------------------------------------------------------
+PART 4. THE OWNER'S SOURCE LIBRARY AND HOW EACH TYPE MAY BE USED
+---------------------------------------------------------------------
+TEXTBOOKS (folder "12 Reference shelf") = CROSS-CHECKERS. Use to confirm facts, chapter by chapter.
+  Brunner & Suddarth (Hinkle/Cheever) - NP3, NP4 medical-surgical
+  Understanding Pathophysiology - "Main problem" sections
+  Kozier & Erb's Fundamentals - GEN fundamentals, procedures, nursing process
+  Pharmacology (Linda) - GEN pharmacology and all "Pharmacologic care" sections
+  Silbert-Flagg Maternal & Child 9th - NP2
+  Psychiatric Mental Health Nursing 9th - NP5 psych
+  Maglaya Nursing Practice in the Community 5e, CHN Sumile 3rd Ed - NP1
+  imci-chart-booklet - NP1/NP2 child illness (IMCI)
+REVIEW BOOKS AND HANDOUTS (Toprank Guide Book, TopRankReviewerMerged, TRA Battle Strategies,
+  UDAN NLE V1/V2, Share WHITE BOOK, Nursing School Comprehensive Bundle, Saunders Q&A)
+  = CONCEPTS AND TOPIC FREQUENCY ONLY. Use them to find what topics matter and which facts
+  reviewers stress. Never copy their questions, answer keys, mnemonics word for word, or layouts.
+  Their facts still need a textbook or official source before they go into a patch.
+WORKBOOKS WITH KEYS (folder "10 Sources by topic / WORKBOOKS with keys (concepts only)")
+  = CONCEPTS ONLY. You may note which concept a question tests. Never copy or rewrite their
+  questions or options. A workbook answer key is NOT proof; confirm the concept in a textbook.
+HOLD (never used for content): real or recalled board exam papers, test banks (PILITERI TEST BANKS),
+  SET-5/6/7, scantron sheets. The PNLE TOS TRACKER may be used ONLY to see which topics carry weight.
+ONLINE OFFICIAL SOURCES (for Philippine facts and to confirm anything time-sensitive):
+  1. DOH (doh.gov.ph) programs, AOs, clinical practice guidelines; DOH Epidemiology Bureau
+  2. Official Gazette (officialgazette.gov.ph), LawPhil (lawphil.net) for every RA number
+  3. PRC (prc.gov.ph), PhilHealth, Philippine Nursing Act RA 9173
+  4. WHO and WHO Western Pacific
+  5. PH medical societies' public guidelines; Philippine National Formulary
+  6. CDC, MedlinePlus, StatPearls (NCBI) for pathophysiology and lab data
+  Newest DOH guidance wins for Philippine practice when sources disagree; state both.
+
+
+---------------------------------------------------------------------
+PART 5. CROSS-CHECK (EVERY NOTE, EVERY TIME)
+---------------------------------------------------------------------
+After writing a note, check it a second time, as a strict examiner, before sending it:
+  1. Check every key fact in Causative agent, Laboratory data, Pharmacologic care,
+     Philippine context against at least TWO independent sources: one textbook from
+     "12 Reference shelf" AND one official online source (PART 4). A review book does not count
+     as one of the two.
+  2. Check that nothing a doctor does sits under a nursing heading, and that every collaborative
+     line starts "As ordered:".
+  3. Check priorities: assessment before action, ABC, Maslow, safety, least invasive first.
+  4. Anything the two sources do not both support: fix it, or move it to "Check against your
+     textbook" as UNVERIFIED.
+  5. Record the result in the op's "crosscheck" field (PART 7):
+       "crosscheck": { "sources": ["Brunner & Suddarth 15e ch 28", "DOH dengue CPG 2024 URL"],
+                       "verdict": "AGREE" | "FIXED" | "DOUBT",
+                       "doubts": ["what is still uncertain"] }
+     AGREE = both sources support the note. FIXED = you corrected something (list it in NOTES as
+     "CORRECTED: old -> new (source)"). DOUBT = something stays uncertain (list it in "doubts").
+Claude's checker flags every missing, incomplete or DOUBT cross-check for a human look.
+
+
+---------------------------------------------------------------------
+PART 6. THE PHASES AND TASKS (WORK TOP TO BOTTOM; LOG EACH ONE)
+---------------------------------------------------------------------
+PHASE 1 - FINISH THE SORT (task SORT-001)
+  54 files are still in "09 Sources inbox" (64 uploaded; 10 already moved). Move them in
+  batches of max 10 per reply:
+    textbooks -> "12 Reference shelf"
+    workbooks with keys -> "10 Sources by topic / WORKBOOKS with keys (concepts only)"
+    review books/handouts covering one area -> that area's folder in "10 Sources by topic"
+      (NP1, NP2 OB, NP2 Pedia, NP3, NP4, NP5 Psych, NP5 Emerg, GEN Fund, GEN Pharm, GEN Laws)
+    review books covering many areas -> "10 Sources by topic / MIXED"
+    board exams, recalled questions, test banks, SET-5/6/7, scantron -> "10 Sources by topic / HOLD"
+  "TRA BATTLE STRATEGIES (1).pdf" in the inbox looks like a duplicate of the copy already on the
+  shelf (same size). Move it to HOLD and write "possible duplicate" in the index. Do not delete.
+  When the inbox is empty, create the doc "00 SOURCES INDEX": one line per file:
+    file name | type (textbook/review/workbook/hold) | NP areas | folder | text or scanned | how to use
+  Then go on to PHASE 2.
+
+PHASE 2 - EXTRACT (tasks X-NP1 ... X-GEN, one topic group per reply)
+  For the topic group of the next PHASE 3 task, read only the matching chapters and write a doc
+  in "11 Extraction staging" titled "EXTRACT <task> <topic>": numbered fact bullets in your own
+  words, each with its source and chapter, e.g. "Dengue incubation 4-10 days (WHO fact sheet; B&S ch 70)".
+  Facts found in only one source are marked "1 SOURCE". No patch in this phase.
+
+PHASE 3 - BUILD AND EXPAND NOTES (3 notes per reply; patch target = the pack file)
+  The notes to work on are in "03 Notes to expand" (one doc per pack; read all parts of a pack).
+  Disease/condition notes first, then concept notes.
+    N-101 NP1 np1-comm.json         N-102 NP1 np1-a.json         N-103 NP1 np1-b.json
+    N-104 NP1 np1-chn2.json         N-201 NP2 np2-ob.json        N-202 NP2 np2-pedia.json
+    N-301 NP3 np3-cardioresp.json   N-302 NP3 np3-hop.json       N-303 NP3 np3-erdn-renal.json
+    N-401 NP4 np4-gitendo.json      N-402 NP4 np4-neurosenses.json N-403 NP4 np4-ortho.json
+    N-501 NP5 np5-a.json            N-502 NP5 np5-b.json         N-503 NP5 np5-psych-c.json
+    N-504 NP5 np5-psych-d.json
+    N-601 GEN gen-pharm.json  (drug-class structure B; the GEN docs are in "06 Reference notes")
+    N-602 GEN gen-fund-a/b/c.json (structure C; procedures: nurse's role before/during/after)
+  Order per area: EXTRACT (PHASE 2) for that area, then its N- tasks, then its NEW- task below.
+  Area order: NP1, NP2, NP3, NP4, NP5, GEN pharm, GEN fund.
+
+  NEW NOTES (task NEW-<area>, after the area's N- tasks):
+    List important PNLE topics in that area that have NO note yet (check every pack's titles first,
+    so there are no duplicates under another name). Use the PNLE TOS TRACKER and the review books
+    only to judge which topics matter. Then write them as "add" ops:
+    id "np1-x-<slug>" ... "np5-x-<slug>" or "gen-x-<slug>", same area, "outlineRefs": [],
+    "priority": "medium" unless it is a core PNLE topic. Max 3 per reply.
+
+PHASE 4 - AREA SWEEP (task V-<area>, after each area's notes are merged; read receipts first)
+  Re-read the merged notes of the area as a strict examiner, using PART 5. Output VERDICTS
+  (PART 7), not a patch: OK / FIX (with the exact fix and source) / DOUBT.
+
+PHASE 5 - VERIFY THE EXISTING QUESTION BANK (task QV-<area>, verdicts only)
+  Docs in "07 Question bank". For each item: is the key right, does the rationale say why each
+  wrong option is wrong, is the strategy tag right, is it a nursing action (not a doctor's)?
+  Known doubts to check first: chest-tube care policy, epinephrine protocol in case studies.
+
+PHASE 6 - NEW PRACTICE QUESTIONS (task Q-<area>, only for areas whose notes are merged)
+  Copy the exact item shape used in "07 Question bank". Rules:
+    - situational vignette (patient data first), then "first / priority / most appropriate /
+      needs immediate attention"; 4 options with plausible distractors;
+    - decided by a named strategy: Maslow, ABC, safety, nursing process (assess first), least
+      invasive first, acute before chronic, unstable before stable, delegation/scope,
+      therapeutic communication, infection control;
+    - answer is a NURSING action (PART 2);
+    - rationale: why the answer is right, why EACH wrong option is wrong, which strategy decided it;
+    - "noteId" = the id of the note where the learner reads this again;
+    - select-all-that-apply at most 1 in every 10 items; about 1 in 10 items may be a curve ball
+      (flags ["curveball"]: an unusual angle on a common topic, still fair and sourced);
+    - difficulty mostly 3-5 (the diagnostic wants hard items);
+    - original wording only. NEVER use, copy, rewrite or reconstruct real or recalled PNLE
+      questions, workbook questions, test bank items or review-book questions.
+  10 questions per reply, VERDICT-checked by you against two sources before sending.
+
+
+---------------------------------------------------------------------
+PART 7. OUTPUT FORMAT (EVERY WORK REPLY / OUTBOX DOC)
+---------------------------------------------------------------------
+AGENT: GEMINI
+TASK: <task id>            BATCH: <n>          STATUS: DONE | PARTIAL | BLOCKED
+TARGET: <data/presets/<pack>.json, or "none" for sort/extract/verify>
+READ RECEIPT: <newest receipt title or "none yet">
+LOG: <the line you added to 00 GEMINI PROGRESS LOG>
+SUMMARY: <1-3 lines>
+PATCH:   (PHASE 3 only; exactly one fenced json block; must parse as JSON)
+```json
+{ "task": "N-101", "target": "data/presets/np1-comm.json", "batch": 1, "ops": [
+  { "op": "update", "id": "np1-cd-dengue",
+    "note": { "id": "np1-cd-dengue", "area": "NP1", "title": "Dengue Fever",
+              "body": "## What it is\n...", "tags": ["communicable disease"], "priority": "high",
+              "outlineRefs": ["..."], "aiWritten": true, "nurseReviewed": false },
+    "crosscheck": { "sources": ["...", "..."], "verdict": "AGREE", "doubts": [] } } ] }
+```
+  Rules: "update" sends the FULL note. Never change id, area or outlineRefs. Tags may only grow.
+  aiWritten true, nurseReviewed false. Escape newlines in body as \n and quotes as \".
+  One json block per reply; never cut it in half; if too long, send fewer notes.
+VERDICTS:  (PHASE 4 and 5 instead of PATCH)
+```json
+{ "task": "V-NP1", "verdicts": [ { "id": "<note or question id>", "verdict": "OK|FIX|DOUBT",
+  "issue": "...", "fix": "...", "source": "..." } ] }
+```
+NOTES:
+  - disease / drug / non-disease notes in this batch
+  - CORRECTED: old -> new (source)
+  - UNVERIFIED: ...
+  - sources you could not open
+  - IDEAS: new notes or questions to add later (title + why)
+NEXT: <the next task and batch, from PART 6>
+
+
+---------------------------------------------------------------------
+PART 8. HARD RULES (BREAK ONE = THE BATCH IS REJECTED)
+---------------------------------------------------------------------
+- Never invent a URL, law number, guideline year, page number, edition, author or drug dose.
+- Never cite a source you did not open. A review book or workbook key is never the only proof.
+- Never copy textbook/reviewer paragraphs, questions or answer keys. Own words only.
+- Never use real or recalled PNLE board questions. HOLD files are never content.
+- Doctor's actions never go under a nursing heading. Collaborative lines start "As ordered:".
+- No patient-specific medical advice; this is exam review.
+- aiWritten true, nurseReviewed false, always.
+- When unsure, say UNVERIFIED. When blocked, say BLOCKED with the exact problem, then move on.
+
+
+---------------------------------------------------------------------
+PART 9. OWNER COMMANDS
+---------------------------------------------------------------------
+GO          start PHASE 1 (or continue from the progress log if it already exists)
+NEXT        continue the plan from the progress log
+REDO <n>    redo batch n with my comments
+SKIP        skip the current item, log it as SKIPPED, continue
+JUMP <task> go to that task
+STATUS      show the last 10 log lines and what is left (no new work)
+STOP        stop now
+
+Before GO: reply only with READY, a 10-line summary of this plan, the folders and docs you can
+see (say what is missing), whether you can create docs and search the web in this chat, and the
+first 3 things you will do. Then wait for GO.
+=====================================================================
