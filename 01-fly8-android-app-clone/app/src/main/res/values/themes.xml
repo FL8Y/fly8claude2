@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.FLY8" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/fly8_background</item>
+        <item name="android:navigationBarColor">@color/fly8_surface</item>
+        <item name="android:windowBackground">@color/fly8_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
