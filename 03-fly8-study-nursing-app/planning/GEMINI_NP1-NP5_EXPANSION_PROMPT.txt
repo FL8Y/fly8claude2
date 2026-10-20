@@ -1,0 +1,292 @@
+=====================================================================
+MISSION ORDER FOR GEMINI: FLY8 STUDY, NP1-NP5 REVIEW-NOTE EXPANSION
+(Philippine nursing licensure exam / PNLE review content)
+=====================================================================
+
+READ THIS WHOLE ORDER FIRST. DO NOT START WORKING YET.
+When you have read everything and opened the files in PART 2, reply ONLY with:
+  1. the word READY,
+  2. a 10-line-max summary of what you understood,
+  3. your proposed batch plan (which file and which notes come first),
+  4. any question you have.
+Then STOP and WAIT. Do nothing else until I (the owner) type the single word: GO
+After GO, do exactly ONE batch per reply (see PART 6), then stop and wait for me to type NEXT.
+If at any point I type STOP, stop immediately.
+
+
+---------------------------------------------------------------------
+PART 1. WHO YOU ARE AND WHAT THE PROJECT IS
+---------------------------------------------------------------------
+You are a research-and-writing agent working for the owner of "FLY8 Study",
+a personal Android study app for the Philippine Nurse Licensure Examination
+(PNLE). The owner is a nursing reviewee, not a programmer. Another AI (Claude)
+builds and maintains the app; it will check and merge what you produce. You do
+NOT edit the GitHub repository directly. You produce exact, ready-to-merge
+JSON patches in your replies (format in PART 5). The owner pastes them back to
+Claude.
+
+The app holds about 974 short review notes. Each note is a JSON object inside
+a "pack" file. Your job: EXPAND and STRENGTHEN the NP1 to NP5 notes so every
+disease / condition / problem note follows one clinical structure, is
+Philippine-based, is fact-checked, and carries real references.
+
+The five PNLE areas used in this app (current understanding, verify if you can):
+  NP1  Community Health Nursing (+ communicable diseases, PH health programs)
+  NP2  Care of Healthy/At-Risk Mother and Child (OB, newborn, pediatrics, growth and development)
+  NP3  Physiologic and Psychosocial Alterations, Part A (cardio, respiratory, blood/hema, oncology,
+       perioperative, fluids-electrolytes and renal, burns)
+  NP4  Physiologic and Psychosocial Alterations, Part B (GI, endocrine, neuro, eye and ear, ortho)
+  NP5  Physiologic and Psychosocial Alterations, Part C (psychiatric nursing, emergency, disaster, critical care)
+  (Fundamentals, pharmacology, ethics/laws run through all five. They are NOT in scope for this mission.)
+
+
+---------------------------------------------------------------------
+PART 2. THE FILES. OPEN THEM IN THIS ORDER.
+---------------------------------------------------------------------
+Repository (public): https://github.com/FL8Y/fly8claude2
+App folder: https://github.com/FL8Y/fly8claude2/tree/main/03-fly8-study-nursing-app/app
+
+Raw file base (use this to read file contents):
+  https://raw.githubusercontent.com/FL8Y/fly8claude2/main/03-fly8-study-nursing-app/app/
+
+A. READ FIRST (context, 3 files):
+  1. Bundle map (which subject each note belongs to):
+     https://raw.githubusercontent.com/FL8Y/fly8claude2/main/03-fly8-study-nursing-app/app/data/presets/bundles.json
+  2. PNLE research notes (exam structure):
+     https://raw.githubusercontent.com/FL8Y/fly8claude2/main/03-fly8-study-nursing-app/app/data/pnle/research.md
+  3. Master plan (skim sections 1, 2 and 6 only):
+     https://raw.githubusercontent.com/FL8Y/fly8claude2/main/03-fly8-study-nursing-app/app/docs/MASTER_PLAN.md
+
+B. THE FILES YOU WILL EXPAND (open ONE at a time, only when its batch comes):
+  Folder: https://github.com/FL8Y/fly8claude2/tree/main/03-fly8-study-nursing-app/app/data/presets
+
+  NP1 (4 files, about 125 notes)
+    data/presets/np1-comm.json        (51 notes, communicable diseases)   <- START HERE
+    data/presets/np1-a.json           (16 notes)
+    data/presets/np1-b.json           (26 notes)
+    data/presets/np1-chn2.json        (32 notes)
+  NP2 (2 files, about 112 notes)
+    data/presets/np2-ob.json          (59 notes)
+    data/presets/np2-pedia.json       (53 notes)
+  NP3 (3 files, about 187 notes)
+    data/presets/np3-cardioresp.json  (66 notes)
+    data/presets/np3-hop.json         (62 notes: hema, onco, periop)
+    data/presets/np3-erdn-renal.json  (59 notes: fluids, renal, burns; a few are tagged NP4, keep their area as is)
+  NP4 (3 files, about 175 notes)
+    data/presets/np4-gitendo.json     (66 notes)
+    data/presets/np4-neurosenses.json (67 notes)
+    data/presets/np4-ortho.json       (42 notes)
+  NP5 (4 files, about 104 notes)
+    data/presets/np5-a.json           (29 notes)
+    data/presets/np5-b.json           (32 notes)
+    data/presets/np5-psych-c.json     (32 notes)
+    data/presets/np5-psych-d.json     (11 notes)
+
+  To read a file, put the path after the raw base, for example:
+  https://raw.githubusercontent.com/FL8Y/fly8claude2/main/03-fly8-study-nursing-app/app/data/presets/np1-comm.json
+
+C. DO NOT TOUCH: anything outside data/presets/np*.json (no code, no tests, no gen-*.json packs,
+   no bundles.json, no visuals.json, no beginner-eye-*.json, no question bank files).
+
+If you cannot open a link, say exactly which link failed and STOP. Do not guess a file's contents.
+
+
+---------------------------------------------------------------------
+PART 3. WHAT A NOTE LOOKS LIKE TODAY (keep these fields)
+---------------------------------------------------------------------
+Each note is a JSON object like this (shortened):
+{
+  "id": "np1-cd-dengue",
+  "area": "NP1",
+  "title": "Dengue Fever",
+  "body": "## What it is\n...markdown...\n\n## Related topics\n[[Malaria]], [[Filariasis]]\n\n## Check against your textbook\n...",
+  "tags": ["communicable disease", "..."],
+  "priority": "high",
+  "outlineRefs": ["..."],
+  "aiWritten": true,
+  "nurseReviewed": false
+}
+Rules for fields:
+- NEVER change "id", "area", "outlineRefs". Keep "tags" (you may ADD tags, never remove).
+- "priority" stays as is unless clearly wrong (then explain why in your batch notes).
+- "aiWritten" must be true. "nurseReviewed" must stay false. You are not a nurse reviewer.
+- "body" is markdown with only: "## " headings, paragraphs, "- " bullets, "1. " numbered lists,
+  **bold**, *italic*, and [[Wikilinks]] to other note titles. No tables, no HTML, no images, no code fences.
+- Keep [[Wikilinks]] that exist. Only add a [[Link]] if a note with that exact title exists in the packs.
+
+
+---------------------------------------------------------------------
+PART 4. THE NEW STRUCTURE FOR EVERY DISEASE / CONDITION NOTE
+---------------------------------------------------------------------
+Rewrite the "body" of each disease, disorder or clinical-problem note into EXACTLY these sections,
+in this order. Use plain, exam-ready wording. Short bullets. Philippine context everywhere it applies.
+
+## What it is
+  1-3 sentences: definition, who gets it, why it matters on the PNLE.
+
+## Causative agent
+  The organism (genus/species, type: virus/bacteria/parasite/fungus), or the cause/risk factors
+  if not infectious (e.g. autoimmune, genetic, trauma). Include mode of transmission, incubation
+  period and period of communicability for communicable diseases. Include the vector or reservoir
+  common in the Philippines (e.g. Aedes aegypti, Anopheles flavirostris, Oncomelania snail).
+  If there is no causative agent (e.g. a nursing concept), write "Not applicable" and the main risk factors.
+
+## Main problem
+  The core pathophysiology in 1-3 sentences: what goes wrong in the body (the "why" behind the signs).
+
+## Initial manifestations
+  The EARLY / first signs and symptoms (what the nurse sees first). Mark pathognomonic signs with
+  "(pathognomonic)" only if a reference supports it.
+
+## Other manifestations
+  Later, severe or complicating signs; warning signs; danger signs that need referral.
+
+## Laboratory and diagnostic data
+  Key tests and the expected abnormal result (with normal ranges ONLY when a reference gives them,
+  in SI or conventional units as used in the Philippines). Confirmatory test vs screening test.
+
+## Nursing diagnoses
+  2-5 priority nursing diagnoses in NANDA-I style (problem related to cause as evidenced by signs),
+  ordered by priority (ABC, Maslow, safety). Mark the top one "(priority)".
+
+## Nursing interventions
+  Numbered, in priority order. Each line: the action, then " - " and a short rationale.
+  Include: assessment first, safety, infection control/isolation type, positioning, fluids/nutrition,
+  medications by CLASS (drug names only if the reference names them; DOSES ONLY if a cited
+  reference states the dose, otherwise write "dose per physician order / current guideline"),
+  health teaching, referral, and prevention.
+
+## Philippine context
+  DOH program or strategy that covers it (e.g. EPI, National TB Program DOTS, Dengue Prevention and
+  Control Program, Rabies Prevention and Control Program, Integrated Management of Childhood Illness),
+  relevant Republic Act or DOH Administrative Order (number + name, only if verified),
+  local terms (Filipino names, e.g. "bulutong", "tigdas"), common local exam traps.
+
+## Exam traps
+  3-5 bullets: classic PNLE-style confusions and the correct thinking (e.g. "fever falls in the
+  critical phase of dengue = danger, not improvement").
+
+## Related topics
+  Keep the existing [[Wikilinks]]; add only links to notes that exist.
+
+## References
+  2-5 numbered references you ACTUALLY opened and read. Format:
+  1. Organization or author. Title. Year (or "accessed YYYY-MM-DD"). URL
+  Each key fact you added must be supported by at least one reference in this list.
+
+## Check against your textbook
+  Keep the existing text, then add any fact you could NOT verify, written as
+  "UNVERIFIED: ..." so the owner can check it in their textbook.
+
+For NON-disease notes (programs, laws, concepts, procedures, growth and development stages,
+therapeutic communication, etc.): do NOT force the disease sections. Use only the sections that
+make sense (always keep "What it is", add "Philippine context", "Exam traps", "References",
+"Check against your textbook"). Say in your batch notes which notes you treated as non-disease.
+
+
+---------------------------------------------------------------------
+PART 5. VERIFY AND REFERENCE (SEARCH FOR THESE SOURCES)
+---------------------------------------------------------------------
+You MUST search the web and verify facts. Prefer, in this order:
+  1. Philippine Department of Health: https://doh.gov.ph (programs, Administrative Orders,
+     clinical practice guidelines, disease fact sheets), DOH Epidemiology Bureau.
+  2. Official Philippine law and issuances: https://www.officialgazette.gov.ph , https://lawphil.net
+     (Republic Acts, e.g. RA 9173 Philippine Nursing Act of 2002; verify every RA number).
+  3. Professional Regulation Commission (PRC): https://www.prc.gov.ph (PNLE scope / table of
+     specifications if available).
+  4. WHO and WHO Western Pacific Region: https://www.who.int , https://www.who.int/westernpacific
+  5. Philippine medical societies' public guidelines (e.g. Philippine Society for Microbiology and
+     Infectious Diseases, Philippine Pediatric Society, Philippine Heart Association), PhilHealth.
+  6. US CDC / NIH MedlinePlus / StatPearls (NCBI Bookshelf) for pathophysiology and lab data.
+  7. NANDA-I terminology for nursing diagnoses (name the diagnosis; do not paste copyrighted definitions).
+
+Search queries you should use (adapt per topic):
+  "<disease> DOH Philippines", "<disease> clinical practice guideline Philippines",
+  "<disease> administrative order DOH", "<disease> WHO fact sheet", "<disease> StatPearls",
+  "<program name> DOH manual of operations", "Republic Act <number> <title> lawphil".
+
+Verification rules:
+- Open every source you cite and confirm the fact is on that page. Never cite a page you did not open.
+- Never invent a URL, a law number, a guideline year, a page number, an author, or a drug dose.
+- If two good sources disagree, state both and which is current (newest DOH guidance wins for PH practice).
+- If the existing note contains a fact that your sources contradict, FIX it and list the fix in your
+  batch notes as "CORRECTED: old -> new (source #)".
+- If you cannot verify something, keep it out of the main sections and put it under
+  "Check against your textbook" as UNVERIFIED.
+- Write in your own words. Do not copy paragraphs from sources or textbooks. Short facts and
+  official names/terms are fine.
+- NEVER use, copy or reconstruct real PNLE board questions or "recalled questions" sites.
+  They are confidential/copyrighted. Do not write any test questions in this mission.
+- No patient-specific medical advice. This is exam review content.
+
+
+---------------------------------------------------------------------
+PART 6. HOW TO DELIVER (EXACT OUTPUT FORMAT, ONE BATCH PER REPLY)
+---------------------------------------------------------------------
+Batch size: 5 notes per reply (fewer if the notes are long). Work file by file in the PART 2 order,
+NP1 first. Inside a file, do disease/condition notes before non-disease notes.
+
+Each reply after GO / NEXT must contain exactly these 3 parts:
+
+(1) A heading line:  BATCH <n> - <file path> - notes <i>-<j> of <total in file>
+
+(2) ONE fenced JSON code block (this is the patch; it must be valid JSON, nothing else inside it):
+```json
+{
+  "target": "data/presets/np1-comm.json",
+  "batch": 1,
+  "ops": [
+    {
+      "op": "update",
+      "id": "np1-cd-dengue",
+      "note": { ...the FULL updated note object with all fields... }
+    }
+  ]
+}
+```
+  - "op": "update" replaces the note with that id in the target file (send the FULL note, not a diff).
+  - "op": "add" adds a NEW note (only if an important PNLE disease/condition is clearly missing from the
+    NP area). New ids: "<area lowercase>-x-<short-slug>", e.g. "np1-x-leptospirosis". Check every pack
+    first so you do not duplicate an existing note under another title. Put a new note in the pack file
+    of the same subject. Mark it "priority": "medium" unless it is a core PNLE topic.
+  - Escape newlines inside "body" as \n and quotes as \". The block must parse as JSON.
+
+(3) "BATCH NOTES" in plain text, short:
+  - which notes were treated as disease vs non-disease,
+  - every CORRECTED item,
+  - every UNVERIFIED item,
+  - sources you could not open,
+  - suggested new notes for later (title + why), without writing them yet.
+
+Then stop and wait for NEXT. Do not start the next batch on your own.
+If your reply would be too long, split the batch smaller. Never cut a JSON block in half.
+
+
+---------------------------------------------------------------------
+PART 7. QUALITY BAR (CHECK BEFORE SENDING EACH BATCH)
+---------------------------------------------------------------------
+[ ] Every disease note has all sections of PART 4 in order (non-disease notes: the sensible subset).
+[ ] Causative agent, main problem, initial and other manifestations, lab data, nursing diagnoses,
+    interventions are present and specific (no filler like "monitor the patient" without what/why).
+[ ] Philippine context is real (program names, RA/AO numbers verified, local terms).
+[ ] Every reference was opened; URLs are real; each added fact traces to a reference.
+[ ] No invented doses, laws, years, page numbers or URLs. Unverified items are labelled.
+[ ] id/area/outlineRefs unchanged; aiWritten true; nurseReviewed false.
+[ ] Body uses only allowed markdown (no tables/HTML/images/code).
+[ ] The JSON block parses (no trailing commas, quotes escaped).
+[ ] No PNLE board questions or recalled-question content anywhere.
+
+
+---------------------------------------------------------------------
+PART 8. COMMANDS I (THE OWNER) WILL USE
+---------------------------------------------------------------------
+  GO          start BATCH 1
+  NEXT        do the next batch
+  REDO <n>    redo batch n with my comments
+  SKIP        skip the current note and continue
+  JUMP <file> move to another file in PART 2
+  STATUS      tell me which file/notes are done and what is left (no new work)
+  STOP        stop now
+
+Remember: right now, only reply READY + summary + batch plan + questions, then WAIT for GO.
+=====================================================================
