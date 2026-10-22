@@ -26,3 +26,17 @@ Append a new entry for each material improvement pass. Do not rewrite history to
 - **Decision:** ACCEPT / REVISE / REJECT
 - **Residual risks:**
 - **Next action / handoff:**
+
+
+### Iteration 1 — 2026-10-23
+- **Objective:** make the iterative harness directly usable by a repository-capable agent and verify that the written files are retrievable from the target repository.
+- **Evidence-backed defect:** the initial harness described the loop but did not provide one copy-ready execution prompt to start a new agent session consistently.
+- **Risk/impact:** future handoffs could omit required files, scope restrictions, stop conditions, or honest test reporting.
+- **Files changed (in-scope only):** `LOOP_PROMPT.md` added; `README.md` updated to link it.
+- **Acceptance criteria:** the prompt must specify recovery files, five-pass budget, exact directory scope, mandatory safety invariants, stop conditions, and final report format.
+- **Tests run and actual results:** GitHub contents API read-back succeeded for README.md, SKILL.md, LOOP_HARNESS.md, HANDOFFS.md, VALIDATION_MATRIX.md, NURSE_GOD_SPEC.md, and ITERATION_LOG.md; all returned non-empty content. LOOP_PROMPT.md creation returned commit `75a4ef642db61ed123f62524321c25276f152897`.
+- **Tests not run and why:** no shell/runtime environment was used to run an automated Markdown/link checker or execute the skill; adversarial behavior tests and live verification of official Philippine sources remain unrun.
+- **Regression/safety review:** prompt preserves folder-only scope, refuses invented test results and clinical authority, and uses finite iteration/stop rules.
+- **Decision:** ACCEPT for harness usability; overall project remains CONDITIONAL pending behavioral tests.
+- **Residual risks:** file read-back proves repository persistence only, not the semantic correctness of all content, currentness of official sources, or runtime behavior.
+- **Next action / handoff:** run VALIDATION_MATRIX.md adversarial prompts against the operational skill, record actual outputs, and fix any critical failures in this directory only.
