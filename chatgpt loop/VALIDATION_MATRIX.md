@@ -5,9 +5,9 @@ Status is NOT RUN until the check is actually performed. A source-code read is n
 | ID | Area | Check | Expected result | Status |
 |---|---|---|---|---|
 | APP-01 | HTML | Parse document with an available HTML parser | No fatal parse errors; expected document structure exists | NOT RUN |
-| APP-02 | JavaScript | Extract inline scripts and run syntax check | No syntax errors | NOT RUN |
-| APP-03 | Content integrity | Compare embedded note records before/after edits | No unexpected note loss or text changes | PASS — 974 baseline records retained; 26 new records added; 1,000 unique IDs in the saved HTML data |
-| APP-04 | IDs | Inventory note IDs | IDs are present and unique | PASS — 1,000 unique IDs confirmed by JSON validation |
+| APP-02 | JavaScript | Parse the updated inline app script with V8 `new Function` | No syntax errors | PASS — syntax parser accepted the updated inline script; browser execution was not tested |
+| APP-03 | Content integrity | Compare embedded note JSON before/after edits | No unexpected note loss or text changes | PASS — JSON block byte-for-byte identical; 1,000 original records retained; zero additions/removals or clinical text changes |
+| APP-04 | IDs | Inventory IDs and verify group/area assignments | IDs are present and unique; all area/group metadata valid | PASS — 1,000 unique IDs, no missing group references, and no group-area mismatches |
 | APP-05 | Search | Search by title and body text | Correct matches; no-result state is clear | NOT RUN |
 | APP-06 | Filters | Test All, NP1–NP5, Core individually and in combination with search | Results match documented filter semantics | NOT RUN |
 | APP-07 | Navigation | Open note, return to list, use hash/back/forward | No dead end or incorrect note state | NOT RUN |
@@ -21,11 +21,20 @@ Status is NOT RUN until the check is actually performed. A source-code read is n
 | APP-15 | Network/offline | Load with external font network unavailable | Core reading remains usable; remote dependency is transparent | NOT RUN |
 | APP-16 | Security | Review dynamic rendering and external requests | No newly introduced unsafe HTML, telemetry, or unapproved network access | NOT RUN |
 | APP-17 | Feature request | Triage supplied Gemini suggestions | Each suggestion gets KEEP / MODIFY / DEFER / REJECT with reason | NOT RUN |
-| APP-18 | Scope | Review changed paths | Changes remain inside `chatgpt loop/` | PASS — only `chatgpt loop/PNLE Study Notes.html` and harness documentation were changed in this pass |
-| APP-19 | History | Inspect iteration log and commit references | Every material edit has a truthful entry | NOT RUN |
+| APP-18 | Scope | Review changed paths | Changes remain inside `chatgpt loop/` | PASS — only the HTML app, iteration log, and validation matrix were changed in this pass |
+| APP-19 | History | Inspect iteration log and commit references | Every material edit has a truthful entry | PASS — iteration 5 records the implementation, baseline blob, HTML commit, actual checks, and tests not run |
 | APP-20 | Release honesty | Review final report | No unsupported claims of runtime testing, perfect reliability, or clinical validation | NOT RUN |
 
-## Latest recorded checks (Iteration 3)\n- Embedded JSON parses successfully; 1,000 notes, 21 groups, and 1,000 unique IDs.\n- All notes in the `fer` group use NP3; all notes in the `burns` group use NP5; no remaining group/header area mismatches were found.\n- JavaScript syntax check (`node --check`) and HTML parser passed on the locally generated candidate matching the app-shell change. The exact GitHub blob was verified for embedded data/counts, but was not executed in a browser.\n- Browser/device interaction tests, visual review of diagrams, source-by-source clinical validation, and current DOH vaccine/medication schedules remain NOT RUN.\n\n## Static checks
+## Previously recorded checks (Iteration 3)\n- Embedded JSON parses successfully; 1,000 notes, 21 groups, and 1,000 unique IDs.\n- All notes in the `fer` group use NP3; all notes in the `burns` group use NP5; no remaining group/header area mismatches were found.\n- JavaScript syntax check (`node --check`) and HTML parser passed on the locally generated candidate matching the app-shell change. The exact GitHub blob was verified for embedded data/counts, but was not executed in a browser.\n- Browser/device interaction tests, visual review of diagrams, source-by-source clinical validation, and current DOH vaccine/medication schedules remain NOT RUN.\n\n## Latest recorded checks (Iteration 5)
+- GitHub source HTML was fully retrieved; the pre-edit HTML blob was `9369e034a32a5131bd7fda5d1db3611c3ab8d45a`.
+- Embedded data JSON compared byte-for-byte before/after; 1000 notes, 21 topic groups, 1000 unique IDs, and 141 diagrams remain.
+- Existing note-to-group references are valid; no note/group area mismatches remain.
+- Inline app JavaScript passed the V8 syntax parser.
+- Static filter fixtures returned 95, 50, 60, 9 matches for renal/NP3/fluids-renal, maternal/NP2/obstetrics, and rabies/NP1/communicable disease queries. This checked the combined-filter logic against the embedded data, not live DOM controls.
+- Visible branding and in-head browser title were checked in source; remote font stylesheet dependencies were removed.
+- **NOT RUN:** actual browser/device interaction, screenshot/visual layout inspection, console inspection, browser storage persistence test, full HTML parser, keyboard-only audit, external-link validation, and clinical verification.
+
+## Static checks
 Record the exact tool/command, output summary, and limitations. If no parser, browser, or target device is available, mark the corresponding check NOT RUN.
 
 ## Release decision
