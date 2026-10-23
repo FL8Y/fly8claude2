@@ -6,7 +6,7 @@
 - Accountability: 74/74 = **100.0%**.
 - Independently evidence-checked: 33/74 = **44.6%**.
 - Implementation: 29/29 approved/eligible changes applied or confirmed unnecessary = **100.0%**.
-- Source limitation: exact textbook pages, master-plan/source-index Drive files, and selected technical DOH/laboratory manuals were not attached or page-verified; affected claims remain explicitly unverified/blocked.
+- Source limitation: exact textbook pages, external master-plan/source-index files, and selected technical DOH/laboratory manuals were not attached or page-verified; affected claims remain explicitly unverified/blocked.
 
 ## Batch 1
 
@@ -294,7 +294,7 @@ Processed findings: 8. Applied: 1. Rejected: 2. Already correct: 2. Awaiting evi
 - **Original claim:** Report attributes four pillars and founding history to DOH AO 29 s.1999 and AO 45-B s.2000.
 - **Proposed correction:** Do not state the four-pillar list/history as official until a source that actually establishes it is obtained; the cited E-Library document is titled PMAC Policy.
 - **Verdict / implementation:** `UNVERIFIED` / `NOT NEEDED`
-- **Verification status:** INDEPENDENTLY VERIFIED
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
 - **Evidence review:** The current note explicitly marks the claimed four pillars/founding attribution/validity as unresolved and says the cited AO 45-B page is a PMAC policy document, not proof of the claim.
 - **Gemini source cited:** DOH AO 29 s.1999 / AO 45-B s.2000 cited by report; E-Library item inspected
 - **Independent sources:** https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/10/40839
@@ -506,7 +506,7 @@ Processed findings: 12. Applied: 2. Rejected: 1. Already correct: 1. Awaiting ev
 - **Original claim:** Report proposes a large structured TB disease note with regimen/dosing and operational guidance.
 - **Proposed correction:** Do not paste the whole expanded disease note without page-level review against a current DOH regimen table and the named textbook editions.
 - **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
-- **Verification status:** INDEPENDENTLY VERIFIED
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
 - **Evidence review:** Only the diagnostic claim was patched from public DOH/WHO evidence. The complete proposed 15-heading expansion contains more details than could be independently verified against all claimed shelf sources in this pass.
 - **Gemini source cited:** CHN Sumile 3rd Ed. 2024 and Maglaya 5e named by report but not attached; DOH NTP MOP accessible only at landing/PDF source
 - **Independent sources:** https://ntp.doh.gov.ph/download/ntp-mop-6th-edition/; https://tbksp.who.int/sites/default/files/2025-08/9789240110991-eng.pdf
