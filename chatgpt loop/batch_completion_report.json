@@ -83,14 +83,31 @@
       "already_correct": 0,
       "awaiting_evidence": 3,
       "validation": "Checkpoint saved; 1,000-note payload and 21 groups asserted; final HTML integrity tests rerun at final validation. Exact new claims intentionally held out pending official source-page checks."
+    },
+    {
+      "batch": 9,
+      "findings_processed": 6,
+      "finding_ids": [
+        "GEM-049",
+        "GEM-050",
+        "GEM-051",
+        "GEM-052",
+        "GEM-053",
+        "GEM-054"
+      ],
+      "applied": 0,
+      "rejected": 0,
+      "already_correct": 0,
+      "awaiting_evidence": 6,
+      "validation": "Checkpoint saved; 1,000-note payload and 21 groups asserted; final HTML integrity tests rerun at final validation. Exact new claims intentionally held out pending official source-page checks."
     }
   ],
   "final_summary": {
-    "total_findings": 48,
-    "accounted": 48,
+    "total_findings": 54,
+    "accounted": 54,
     "accountability_pct": 100.0,
     "independently_verified": 33,
-    "verification_pct": 68.8,
+    "verification_pct": 61.1,
     "approved_eligible_changes": 29,
     "implemented_or_not_needed": 29,
     "implementation_pct": 100.0,
@@ -99,7 +116,7 @@
       "CONFLICTING EVIDENCE": 2,
       "PARTIALLY VALID": 10,
       "VERIFIED CORRECTION": 7,
-      "UNVERIFIED": 15,
+      "UNVERIFIED": 21,
       "REJECT": 3,
       "OUTDATED": 1
     },
@@ -107,7 +124,7 @@
       "NOT NEEDED": 22,
       "APPLIED": 8,
       "PENDING EVIDENCE": 1,
-      "BLOCKED": 14,
+      "BLOCKED": 20,
       "REJECTED": 3
     }
   },
