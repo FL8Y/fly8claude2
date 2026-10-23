@@ -3,7 +3,7 @@
   "source_html": "Lordahns_Tracker_Audited.html",
   "source_report": "PNLE Study Notes Source Verification.docx",
   "source_html_sha256": "3e3a51a02916e4a5b3c01d2cfdae6fb9c0d0b17f456cc02cb901e9cdcf0080b5",
-  "output_html_sha256": "8a92d46b2f7222f00538a496df293ccdf152246ce40effc27629b9c20b9777cf",
+  "output_html_sha256": "223d2b7d784c648e161e3844e9ae181a71c0a26f12ed63e6161f5766a8bd19f7",
   "baseline": {
     "notes": 1000,
     "unique_nonempty_note_ids": 1000,
@@ -973,28 +973,28 @@
       "evidence_review": "The exact local threshold table was not confirmed and the listed groups do not exhaust all risk-based interpretation categories.",
       "independent_sources": [],
       "second_pass_review": "SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified."
-    }
-  ],
-  "summary": {
-    "total_findings": 45,
-    "accounted": 45,
-    "accountability_pct": 100.0,
-    "independently_verified": 33,
-    "verification_pct": 73.3,
-    "approved_eligible_changes": 29,
-    "implemented_or_not_needed": 29,
-    "implementation_pct": 100.0,
-    "verdict_counts": {
-      "ALREADY CORRECT": 10,
-      "CONFLICTING EVIDENCE": 2,
-      "PARTIALLY VALID": 10,
-      "VERIFIED CORRECTION": 7,
-      "UNVERIFIED": 12,
-      "REJECT": 3,
-      "OUTDATED": 1
     },
-    "implementation_status_counts": {
-      "NOT NEEDED": 22,
-      "APPLIED": 8,
-      "PENDING EVIDENCE": 1,
-      "BLOCKED": 11,
+    {
+      "finding_id": "GEM-046",
+      "batch": 8,
+      "report_page_or_section": "Report section “Expanded Note 1: Tuberculosis,” medical management",
+      "clinical_subject_topic": "Exact airflow range for negative-pressure TB isolation rooms",
+      "original_claim": "The report prescribes 6–12 air exchanges per hour plus HEPA filtration.",
+      "proposed_correction": "Use applicable current facility-engineering and infection-prevention standards for the room type; do not present one airflow range as a universal requirement without the governing specification.",
+      "source_cited_by_gemini": "Kozier & Erb/DOH infection-prevention guidance referenced by report",
+      "html_note_id_or_search_anchor": "np3-cr-tb-diagnosis; np3-cr-tb-drugs",
+      "verification_status": "UNVERIFIED / SOURCE ACCESS LIMITED",
+      "independently_verified": false,
+      "primary_verdict": "UNVERIFIED",
+      "implementation_status": "BLOCKED",
+      "approved_for_implementation": false,
+      "final_disposition": "BLOCKED; no engineering threshold inserted into the study note.",
+      "evidence_review": "The numeric range was not validated against the current Philippine facility or infection-control standard during this pass.",
+      "independent_sources": [],
+      "second_pass_review": "SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified."
+    },
+    {
+      "finding_id": "GEM-047",
+      "batch": 8,
+      "report_page_or_section": "Report section “Expanded Note 1: Tuberculosis,” pharmacologic care",
+      "clinical_subject_topic": "Exact 6-month Category I drug-susceptible TB regimen scope",
