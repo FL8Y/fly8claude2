@@ -6,8 +6,8 @@ Status is NOT RUN until the check is actually performed. A source-code read is n
 |---|---|---|---|---|
 | APP-01 | HTML | Parse document with an available HTML parser | No fatal parse errors; expected document structure exists | NOT RUN |
 | APP-02 | JavaScript | Parse the updated inline app script with V8 `new Function` | No syntax errors | PASS — syntax parser accepted the updated inline script; browser execution was not tested |
-| APP-03 | Content integrity | Compare embedded note JSON before/after edits | No unexpected note loss or text changes | PASS — JSON block byte-for-byte identical; 1,000 original records retained; zero additions/removals or clinical text changes |
-| APP-04 | IDs | Inventory IDs and verify group/area assignments | IDs are present and unique; all area/group metadata valid | PASS — 1,000 unique IDs, no missing group references, and no group-area mismatches |
+| APP-03 | Content integrity | Compare embedded note JSON against baseline blob | No unexpected note loss or text changes | PASS — independently compared baseline blob `9369e034a32a5131bd7fda5d1db3611c3ab8d45a` with current HTML; JSON block byte-for-byte identical; 1,000 records retained; zero additions/removals or text changes |
+| APP-04 | IDs | Inventory IDs and verify group/area assignments | IDs are present and unique; all area/group metadata valid | PASS — independently rechecked 1,000 unique IDs, required fields, valid group references, and zero group-area mismatches |
 | APP-05 | Search | Search by title and body text | Correct matches; no-result state is clear | NOT RUN |
 | APP-06 | Filters | Test All, NP1–NP5, Core individually and in combination with search | Results match documented filter semantics | NOT RUN |
 | APP-07 | Navigation | Open note, return to list, use hash/back/forward | No dead end or incorrect note state | NOT RUN |
@@ -43,3 +43,12 @@ Record the exact tool/command, output summary, and limitations. If no parser, br
 - **FAIL:** a critical check fails or content integrity/scope is violated.
 
 This matrix assesses app behavior and engineering discipline; it does not validate the clinical accuracy of the study notes or imply PRC/official endorsement.
+
+
+## Independent verification audit (2026-10-23)
+- **PASS:** Embedded JSON is byte-for-byte identical to baseline blob `9369e034a32a5131bd7fda5d1db3611c3ab8d45a`; 1,000 notes, 21 groups, 1,000 unique IDs, 141 diagrams.
+- **PASS:** Required note fields present; zero dangling group references and zero area/group mismatches.
+- **PASS:** V8 `new Function` accepted the inline app script; source checks found the in-head document title, visible branding, mobile viewport/styles, no remote Google Fonts stylesheet, bookmark and studied-state keys, collapsible topic-group logic, breadcrumbs, and safe external-link attributes.
+- **PASS (data-level fixture only):** renal + NP3 + fluids/renal = 50; maternal + NP2 + obstetrics = 60; rabies + NP1 + communicable disease = 9; note-ID lookup = 1; deliberate no-match = 0.
+- **NOT RUN:** actual browser/device interaction, screenshots/layout inspection, browser console, live DOM search/filter flows, navigation/history clicks, persistence reload, clipboard permissions/fallback, keyboard-only accessibility, HTML conformance parser, external-link audit, clinical validation.
+- **Release status:** CONDITIONAL until browser/device tests are performed. Data-level fixtures do not prove that live controls work.
