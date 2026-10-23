@@ -1,10 +1,10 @@
 # Lordahn's Tracker — Batch-by-Batch Source Verification Ledger
 
 - Source HTML SHA-256: `3e3a51a02916e4a5b3c01d2cfdae6fb9c0d0b17f456cc02cb901e9cdcf0080b5`
-- Output HTML SHA-256: `d0a7cc967134dd722729cb7e066ca98aaeb1b838928fcf636ff1c2295b9f20e0`
+- Output HTML SHA-256: `1f27bfc3fd5159480d264f0f4d9fb0e3ff85a280de225b4466aa3fb09e887260`
 - Baseline: 1000 notes; 1000 unique IDs; 21 groups.
-- Accountability: 54/54 = **100.0%**.
-- Independently evidence-checked: 33/54 = **61.1%**.
+- Accountability: 59/59 = **100.0%**.
+- Independently evidence-checked: 33/59 = **55.9%**.
 - Implementation: 29/29 approved/eligible changes applied or confirmed unnecessary = **100.0%**.
 - Source limitation: exact textbook pages, master-plan/source-index Drive files, and selected technical DOH/laboratory manuals were not attached or page-verified; affected claims remain explicitly unverified/blocked.
 
@@ -744,4 +744,73 @@ Processed findings: 6. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evi
 - **Gemini source cited:** Official ethambutol prescribing information and current pediatric NTP guidance not supplied for page-level check
 - **Independent sources:** None verified for the exact claim in this pass.
 - **Final disposition:** BLOCKED; no absolute age contraindication added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+## Batch 10
+
+Processed findings: 5. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evidence/blocked: 5.
+
+### GEM-055 — Hematocrit rise of ≥20% described as pathognomonic
+- **Report location:** Report section “Expanded Note 2: Dengue Hemorrhagic Fever / Severe Dengue,” exam traps
+- **HTML destination:** `np1-cd-dengue; np1-cd-x-mosquito-compared`
+- **Original claim:** The report calls hemoconcentration ≥20% the pathognomonic laboratory indicator of plasma leakage.
+- **Proposed correction:** Do not present a single fixed hematocrit percentage as pathognomonic or sufficient for diagnosis; interpret serial values with baseline, hydration, clinical status and current protocol.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The expanded note uses categorical “pathognomonic” language. The current study note has deliberately removed a fixed single-threshold rule; the exact ≥20% assertion was not imported.
+- **Gemini source cited:** DOH AO 2012-0006 cited by report; exact threshold not page-verified in this pass
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; app retains the safer serial-trend/clinical-context caveat.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-056 — Platelet threshold ≤100,000/mm³ presented as bleeding-tendency indicator
+- **Report location:** Report section “Expanded Note 2: Dengue,” exam traps
+- **HTML destination:** `np1-cd-dengue; np1-endemic-diseases`
+- **Original claim:** The report equates platelets ≤100,000/mm³ with bleeding tendency as an exam shortcut.
+- **Proposed correction:** Do not use platelet count alone to predict bleeding severity or make treatment decisions; assess bleeding, hemodynamics, hematocrit trends and the full clinical picture.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The threshold may appear in legacy classification schemes but the reported shorthand oversimplifies individual bleeding risk.
+- **Gemini source cited:** DOH dengue guidance cited by report; exact cutoff not page-verified in this pass
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; the note already cautions against using one lab value alone.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-057 — Fever lasting ≥2 days as a universal early-consultation trigger
+- **Report location:** Report section “Expanded Note 2: Dengue,” Philippine context
+- **HTML destination:** `np1-cd-dengue`
+- **Original claim:** The report embeds a specific fever-duration trigger in the local prevention campaign.
+- **Proposed correction:** Prefer current DOH/public-health messages and teach urgent assessment for warning signs or clinical deterioration rather than presenting one fever-duration threshold as universal.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The specific local campaign wording and its current applicability were not independently confirmed.
+- **Gemini source cited:** DOH dengue health-promotion circular referenced by report but not supplied
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; not added as a universal consultation rule.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-058 — Exact Enhanced 4S/5S activities, weekly slogan, DEET and fogging advice
+- **Report location:** Report section “Expanded Note 2: Dengue,” Philippine context
+- **HTML destination:** `np1-cd-dengue; np1-cd-x-mosquito-compared`
+- **Original claim:** The report lists “Taob, Taktak, Tuyo, Takip,” DEET, and a specific fogging criterion.
+- **Proposed correction:** Check the current DOH campaign and outbreak-control circular before treating these exact slogans/thresholds as the current official protocol.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** Exact campaign wording and the fogging trigger were not checked against a current official issuance.
+- **Gemini source cited:** DOH Enhanced 4S/5S references cited by report but not supplied
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no campaign-specific rules were inserted.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-059 — Tepid sponge baths at fever ≥38.5 °C
+- **Report location:** Report section “Expanded Note 2: Dengue,” pharmacologic care
+- **HTML destination:** `np1-cd-dengue`
+- **Original claim:** The report recommends tepid sponge baths alongside paracetamol at a specified temperature.
+- **Proposed correction:** Do not import a temperature-triggered cooling procedure without current pediatric/clinical guidance; avoid routine cooling measures that cause distress and follow applicable fever-management protocol.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The exact threshold and appropriateness of tepid sponging were not verified from the named primary sources.
+- **Gemini source cited:** DOH/WHO fever-management guidance not directly inspected for this precise recommendation
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; the app does not add this procedure or trigger.
 - **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
