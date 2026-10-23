@@ -36,3 +36,7 @@ For every pass:
 
 ## End report
 List passes and decisions, changed paths and commits, tests with actual results, tests NOT RUN, content-integrity status, remaining risks, and the next highest-value task. Stop after five passes or earlier when further work would be speculative, repetitive, unsafe, or blocked by missing user decisions.
+
+
+## Latest baseline note
+The target HTML currently contains 1,000 unique notes. The 26 added topics and selected clarifications from the 2026-10-23 pass are in place. Treat Gemini's suggested facts as candidates, not proof; verify high-risk claims against current official Philippine guidance and primary sources before changing dosing or policy statements.
