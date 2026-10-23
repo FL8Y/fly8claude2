@@ -1,10 +1,10 @@
 # Lordahn's Tracker — Batch-by-Batch Source Verification Ledger
 
 - Source HTML SHA-256: `3e3a51a02916e4a5b3c01d2cfdae6fb9c0d0b17f456cc02cb901e9cdcf0080b5`
-- Output HTML SHA-256: `8a92d46b2f7222f00538a496df293ccdf152246ce40effc27629b9c20b9777cf`
+- Output HTML SHA-256: `223d2b7d784c648e161e3844e9ae181a71c0a26f12ed63e6161f5766a8bd19f7`
 - Baseline: 1000 notes; 1000 unique IDs; 21 groups.
-- Accountability: 45/45 = **100.0%**.
-- Independently evidence-checked: 33/45 = **73.3%**.
+- Accountability: 48/48 = **100.0%**.
+- Independently evidence-checked: 33/48 = **68.8%**.
 - Implementation: 29/29 approved/eligible changes applied or confirmed unnecessary = **100.0%**.
 - Source limitation: exact textbook pages, master-plan/source-index Drive files, and selected technical DOH/laboratory manuals were not attached or page-verified; affected claims remain explicitly unverified/blocked.
 
@@ -619,4 +619,47 @@ Processed findings: 5. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evi
 - **Gemini source cited:** TB diagnostic guidance and the named nursing textbooks cited by report
 - **Independent sources:** None verified for the exact claim in this pass.
 - **Final disposition:** BLOCKED; retain existing caution that TST indicates infection/exposure, not proof of active TB.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+## Batch 8
+
+Processed findings: 3. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evidence/blocked: 3.
+
+### GEM-046 — Exact airflow range for negative-pressure TB isolation rooms
+- **Report location:** Report section “Expanded Note 1: Tuberculosis,” medical management
+- **HTML destination:** `np3-cr-tb-diagnosis; np3-cr-tb-drugs`
+- **Original claim:** The report prescribes 6–12 air exchanges per hour plus HEPA filtration.
+- **Proposed correction:** Use applicable current facility-engineering and infection-prevention standards for the room type; do not present one airflow range as a universal requirement without the governing specification.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The numeric range was not validated against the current Philippine facility or infection-control standard during this pass.
+- **Gemini source cited:** Kozier & Erb/DOH infection-prevention guidance referenced by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no engineering threshold inserted into the study note.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-047 — Exact 6-month Category I drug-susceptible TB regimen scope
+- **Report location:** Report section “Expanded Note 1: Tuberculosis,” pharmacologic care
+- **HTML destination:** `np1-endemic-diseases; np3-cr-tb-drugs`
+- **Original claim:** The report states 2HRZE/4HR for 6 months for new or retreatment PTB and most EPTB.
+- **Proposed correction:** Do not hard-code a regimen as universal; verify current DOH algorithm by disease site, prior treatment, resistance results, age/pregnancy and other patient factors.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The broad need for algorithm-based treatment is clear, but exact current applicability and scope were not verified against all current regimen tables.
+- **Gemini source cited:** DOH NTP MOP 6th ed. (2021), WHO TB guidance; textbook sources named by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED pending a current, page-level NTP regimen review; the existing note has an explicit algorithm caveat.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-048 — Exact 12-month CNS/bone/joint EPTB regimen
+- **Report location:** Report section “Expanded Note 1: Tuberculosis,” pharmacologic care
+- **HTML destination:** `np1-endemic-diseases; np3-cr-tb-drugs`
+- **Original claim:** The report states 2HRZE/10HR for 12 months for TB of the CNS, bones or joints.
+- **Proposed correction:** Confirm disease-site-specific duration in the current Philippine NTP regimen table before asserting a fixed 12-month schedule.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The precise indication and regimen were not checked against a current complete regimen table.
+- **Gemini source cited:** DOH NTP MOP 6th ed. (2021) and WHO TB treatment guidance named by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no fixed CNS/bone/joint duration was newly added.
 - **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
