@@ -80,3 +80,17 @@ Append a new entry for each material improvement pass. Do not rewrite history to
 - **HTML commit:** `c21c17c51c9e13d342a7ddc1ff84df93fdca82fb`.
 - **Tests not run:** mobile/desktop browser visual check.
 - **Status:** branding change committed; runtime visual confirmation remains pending.
+
+### Iteration 5 — 2026-10-23
+- **Objective:** deliver the requested branded UI refresh and topic-first navigation without changing study-note content.
+- **Evidence-backed defects:** the document placed its `<title>` outside `<head>`; the app's home renderer replaced the visible brand with `PNLE Study Notes`; navigation showed flat lists under non-collapsible group headings; there was no topic-group selector or bookmark workflow.
+- **Baseline / recovery point:** prior HTML blob `9369e034a32a5131bd7fda5d1db3611c3ab8d45a` on `main`; Git history remains the recovery source. Embedded-data baseline: 1000 notes, 21 groups, 1000 unique stable IDs, 141 SVG diagrams.
+- **Implementation:** corrected document/head metadata and persistent visible branding; replaced network-hosted font loading with system-font fallbacks for offline use; added responsive controls for full-text search, PNLE area, existing topic group, saved bookmarks, and clearing filters; arranged the existing 21 topic groups beneath their unchanged PNLE area assignments; made groups expandable with lazy note-row rendering; added result counts and an explicit empty state; added bookmark persistence under a new `pnle-bookmarks` key while leaving `pnle-studied` unchanged; added topic breadcrumbs and retained note links, SVG diagrams, studied-state, theme, and copy actions.
+- **Content protection:** embedded JSON block compared byte-for-byte before and after. No note, ID, body, area, group, priority, diagram, caption, or existing metadata was added, removed, or rewritten.
+- **Files changed (in-scope only):** `PNLE Study Notes.html`; `ITERATION_LOG.md`; `VALIDATION_MATRIX.md`.
+- **Acceptance / static checks:** PASS — 1000 notes before and after; 21 groups before and after; unique IDs preserved; all note group references valid; all area assignments match their existing group definitions; 141 diagrams retained; title is inside `<head>`; visible brand string present; external Google Fonts dependency removed; inline app JavaScript syntax parsed with V8 `new Function`; search/filter fixtures passed for renal/NP3/fluids-renal, maternal/NP2/obstetrics, and rabies/NP1/communicable disease (95, 50, 60, 9 matches respectively).
+- **HTML commit:** `0053e51520fdf7e1cd9e3e6dd55f9ac3baa638d7`.
+- **Not run:** browser/device visual testing; real DOM click flows and keyboard-only testing; browser console inspection; live search/filter/bookmark/studied-state persistence regression tests; HTML parser conformance; exhaustive external-link audit; clinical content verification. Static fixtures are not substitutes for browser interaction tests.
+- **Status:** CONDITIONAL — data integrity and static app-script checks passed; runtime UI checks remain open.
+- **Residual risks:** layout, touch usability, deep-link navigation, storage behavior and clipboard permissions still need browser/device testing. No clinical content was reviewed or changed in this pass.
+
