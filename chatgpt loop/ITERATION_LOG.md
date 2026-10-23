@@ -54,3 +54,18 @@ Append a new entry for each material improvement pass. Do not rewrite history to
 - **Decision:** ACCEPT for project-scope/harness realignment; overall app status remains CONDITIONAL.
 - **Residual risks:** exact byte-for-byte equality in GitHub remains to be verified; runtime reliability and note-content quality are untested. Gemini recommendations have not yet been provided for triage.
 - **Next action / handoff:** verify the uploaded HTML by reading it back and comparing the content/hash, then triage the user's Gemini suggestions and implement the highest-priority approved reliability fix.
+
+
+### Iteration 3 — 2026-10-23
+- **Objective:** apply the supplied Gemini topic blueprint to the Philippine PNLE study HTML while protecting data integrity and correcting obvious area-tag mismatches.
+- **Evidence-backed defect:** the baseline contained 974 notes and lacked the 26 requested high-yield topics; notes in the `fer` and `burns` groups had mixed NP area labels; the app's note renderer did not make Markdown-style external references clickable.
+- **Files changed:** `PNLE Study Notes.html`; harness documentation updated in `README.md`, `SKILL.md`, `NURSE_GOD_SPEC.md`, `LOOP_HARNESS.md`, `VALIDATION_MATRIX.md`, `LOOP_PROMPT.md`, and this log.
+- **Implementation:** added 26 high-yield topic records with schematic SVGs and linked starting references; added cautionary clarifications to 25 existing notes covering cholera, rabies, leptospirosis, pertussis, typhoid, schistosomiasis, leprosy, family planning, antenatal care, immunization, BP, menstrual physiology, newborn cardiac care, clubfoot, pressure injury prevention, thyroid patterns, drug-level interpretation, Parkinson care, HIV law and nursing licensure law; standardized all `fer` records to NP3 and `burns` records to NP5; enabled clickable HTTPS links; updated the educational-use disclaimer.
+- **HTML commit:** `73e924198840abe4e90234355e43105ed7e03c78`.
+- **Acceptance checks and actual results:** embedded JSON parsed; 1,000 notes and 21 groups; 1,000 unique IDs; all note groups resolve; every `fer` note is NP3 and every `burns` note is NP5; area counts are NP1 132, NP2 118, NP3 181, NP4 181, NP5 116, GEN 272. The HTML data is committed to GitHub.
+- **Additional local checks:** HTML parser passed and `node --check` passed on the local candidate containing the same renderer change. These do not prove full browser functionality.
+- **Not run:** full browser/device tests; interactive search/filter/navigation/persistence/copy tests; accessibility audit; visual review of all 26 SVGs; exhaustive note-by-note clinical validation; current DOH immunization/drug regimen verification; source-shelf chapter-by-chapter comparison; byte-level hash comparison between local candidate and GitHub blob.
+- **Clinical integrity:** Gemini's supplied text was treated as an audit lead, not authority. Potentially variable doses and outdated drug recommendations were not inserted as blanket orders; multiple notes explicitly require current DOH/local-protocol verification. The source shelf claimed in Gemini's message was not accessed in this pass.
+- **Decision:** ACCEPT for topic coverage and structural data integrity; overall clinical/release status remains CONDITIONAL.
+- **Residual risks:** some original note bodies may still contain outdated or conflicting details; added source links are starting points and do not verify every sentence. The generated diagrams are generic recall schematics, not topic-specific clinical algorithms.
+- **Next action:** run a high-risk source audit starting with rabies, cholera, leptospirosis, typhoid antibiotic guidance, vaccine schedule, maternal supplements, therapeutic drug ranges, and RA 9173; then perform browser tests on mobile and desktop.
