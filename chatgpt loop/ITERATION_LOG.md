@@ -69,3 +69,14 @@ Append a new entry for each material improvement pass. Do not rewrite history to
 - **Decision:** ACCEPT for topic coverage and structural data integrity; overall clinical/release status remains CONDITIONAL.
 - **Residual risks:** some original note bodies may still contain outdated or conflicting details; added source links are starting points and do not verify every sentence. The generated diagrams are generic recall schematics, not topic-specific clinical algorithms.
 - **Next action:** run a high-risk source audit starting with rabies, cholera, leptospirosis, typhoid antibiotic guidance, vaccine schedule, maternal supplements, therapeutic drug ranges, and RA 9173; then perform browser tests on mobile and desktop.
+
+
+### Iteration 4 — 2026-10-23
+- **Objective:** brand the study app as “Lordahn's Tracker”.
+- **Evidence-backed request:** user asked to put the name “Lordahn's Tracker” on the HTML.
+- **Files changed:** `PNLE Study Notes.html`; this iteration log.
+- **Implementation:** changed the browser-tab title and main visible app heading to “Lordahn's Tracker”; retained the existing HTML path to avoid breaking harness references.
+- **Acceptance checks:** exact title string and visible heading were confirmed in the updated HTML before commit.
+- **HTML commit:** `c21c17c51c9e13d342a7ddc1ff84df93fdca82fb`.
+- **Tests not run:** mobile/desktop browser visual check.
+- **Status:** branding change committed; runtime visual confirmation remains pending.
