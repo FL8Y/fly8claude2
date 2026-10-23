@@ -50,3 +50,7 @@ Inspect repository-level instructions for constraints, but do not edit outside `
 - use repeated reviews as a substitute for evidence;
 - modify app files outside `chatgpt loop/`;
 - claim clinical validation or official PNLE endorsement.
+
+
+## Current project state
+The current data target is 1,000 notes across 21 groups. The latest pass added 26 requested topics, updated selected high-impact study clarifications, normalized the `fer` and `burns` area tags, and enabled clickable HTTPS references. Continue auditing the actual HTML; do not assume every claim in the supplied Gemini audit is correct or that a linked reference verifies every sentence.
