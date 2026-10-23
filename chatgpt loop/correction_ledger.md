@@ -1,10 +1,10 @@
 # Lordahn's Tracker — Batch-by-Batch Source Verification Ledger
 
 - Source HTML SHA-256: `3e3a51a02916e4a5b3c01d2cfdae6fb9c0d0b17f456cc02cb901e9cdcf0080b5`
-- Output HTML SHA-256: `ed636ff0ed86177d7b71fb166f3d03cd739bd2157222e84bedafeb59a9037c5e`
+- Output HTML SHA-256: `b2b0e01980b59e86fbc10c9d5c69da5550f4c1014a718412ca47bd52f4bc483d`
 - Baseline: 1000 notes; 1000 unique IDs; 21 groups.
-- Accountability: 69/69 = **100.0%**.
-- Independently evidence-checked: 33/69 = **47.8%**.
+- Accountability: 74/74 = **100.0%**.
+- Independently evidence-checked: 33/74 = **44.6%**.
 - Implementation: 29/29 approved/eligible changes applied or confirmed unnecessary = **100.0%**.
 - Source limitation: exact textbook pages, master-plan/source-index Drive files, and selected technical DOH/laboratory manuals were not attached or page-verified; affected claims remain explicitly unverified/blocked.
 
@@ -951,4 +951,73 @@ Processed findings: 6. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evi
 - **Gemini source cited:** DOH Health-Care Waste Management Manual, 4th ed. (2020) cited by report
 - **Independent sources:** None verified for the exact claim in this pass.
 - **Final disposition:** BLOCKED; no red/sharps mapping added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+## Batch 13
+
+Processed findings: 5. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evidence/blocked: 5.
+
+### GEM-070 — Exact stool/formalin/ether quantities for FECT
+- **Report location:** Report section “Expanded Note 1 / Structured Merge Tool Patch Specification,” food-handler screening
+- **HTML destination:** `np1-x-food-safety`
+- **Original claim:** The report specifies 1.0–1.5 g stool, 10 mL of 10% formalin, and 3 mL ether.
+- **Proposed correction:** Do not copy laboratory reagent volumes into a nursing note without checking the exact method/protocol and laboratory safety requirements.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The linked AO source supports a food-handler screening procedure generally, but the exact reagent quantities were not independently checked in a laboratory procedure.
+- **Gemini source cited:** DOH AO 2006-0001 and technical FECT procedure named by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; the note keeps the verified annual-screening/FECT distinction without reagent quantities.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-071 — FECT sample storage, refrigeration and stool-to-formalin ratio
+- **Report location:** Report section “Expanded Note 1 / Structured Merge Tool Patch Specification,” food-handler screening
+- **HTML destination:** `np1-x-food-safety`
+- **Original claim:** The report says delayed samples can be stored at 4 °C (never frozen) or preserved in 10% formalin at a 1:3 stool-to-formalin ratio.
+- **Proposed correction:** Confirm storage/transport details with the actual laboratory SOP or official parasitology manual before presenting them as universal.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The exact storage temperature, freeze restriction and ratio were not verified from an accessible primary laboratory protocol.
+- **Gemini source cited:** DOH AO 2006-0001 and technical FECT procedure named by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no exact sample-storage recipe added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-072 — Specific Philippine LF vector species and local breeding claims
+- **Report location:** Report section “Expanded Note 1: Lymphatic Filariasis,” local epidemiology
+- **HTML destination:** `np1-cd-filariasis`
+- **Original claim:** The report names Aedes poecilus and Anopheles minimus flavirostris and associates a vector with abaca/banana leaf axils and selected localities.
+- **Proposed correction:** Require a current authoritative Philippine programme/vector source before importing species-by-location or breeding-site claims into the standard note.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The precise vector/location assertion was not cross-checked against a current official Philippine vector map/manual.
+- **Gemini source cited:** DOH National Filariasis Elimination Program AO 2018-0016 and nursing texts cited by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no place-specific vector claim added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-073 — Exact nocturnal blood examination collection window
+- **Report location:** Report section “Expanded Note 1: Lymphatic Filariasis,” diagnostic data
+- **HTML destination:** `np1-cd-filariasis`
+- **Original claim:** The report says NBE is collected from 8:00 PM to 4:00 AM and mentions a daytime ICT alternative.
+- **Proposed correction:** Verify exact collection hours and local test algorithms with current DOH/laboratory protocol before presenting a fixed universal window.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The exact local time window and test selection were not independently verified.
+- **Gemini source cited:** DOH National Filariasis Elimination Program AO 2018-0016 cited by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no exact testing window added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-074 — Fixed DEC 6 mg/kg + albendazole 400 mg every November
+- **Report location:** Report section “Expanded Note 1: Lymphatic Filariasis,” treatment/MDA
+- **HTML destination:** `np1-cd-filariasis`
+- **Original claim:** The report gives a fixed combined MDA dose and month as universal.
+- **Proposed correction:** Do not add population-wide drug doses or a fixed campaign month without the current national/area-specific MDA protocol and eligibility criteria.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The exact dose, eligible population and November campaign timing were not checked against a current official programme circular.
+- **Gemini source cited:** DOH National Filariasis Elimination Program AO 2018-0016 and WHO guidance cited by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; the app continues to avoid a fixed self-treatment/MDA dosing instruction.
 - **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
