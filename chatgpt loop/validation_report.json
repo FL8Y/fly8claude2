@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-23",
+  "html": {
+    "bytes": 2608507,
+    "sha256": "b2b0e01980b59e86fbc10c9d5c69da5550f4c1014a718412ca47bd52f4bc483d",
+    "title": "Lordahn's Tracker — PNLE Study Tracker",
+    "notes": 1000,
+    "unique_note_ids": 1000,
+    "topic_groups": 21,
+    "data_json": "PASS",
+    "closing_html_tag": "PASS",
+    "audit_rows": 74
+  },
+  "ledger": {
+    "total_findings": 74,
+    "accounted": 74,
+    "accountability_pct": 100.0,
+    "independently_verified": 33,
+    "verification_pct": 44.6,
+    "approved_eligible_changes": 29,
+    "implemented_or_not_needed": 29,
+    "implementation_pct": 100.0,
+    "verdict_counts": {
+      "ALREADY CORRECT": 10,
+      "CONFLICTING EVIDENCE": 2,
+      "PARTIALLY VALID": 10,
+      "VERIFIED CORRECTION": 7,
+      "UNVERIFIED": 41,
+      "REJECT": 3,
+      "OUTDATED": 1
+    },
+    "implementation_status_counts": {
+      "NOT NEEDED": 22,
+      "APPLIED": 8,
+      "PENDING EVIDENCE": 1,
+      "BLOCKED": 40,
+      "REJECTED": 3
+    },
+    "findings": 74,
+    "unique_finding_ids": 74
+  },
+  "checks": {
+    "HTML title and branding": "PASS",
+    "data JSON parses": "PASS",
+    "note count preserved at 1000": "PASS",
+    "note IDs unique": "PASS",
+    "topic groups preserved at 21": "PASS",
+    "no stale universal chloroquine prophylaxis wording": "FAIL",
+    "applied high priority changes trace to audit IDs": "REVIEW",
+    "inline app JavaScript syntax": "PASS",
+    "real-browser interaction/responsive test": "NOT PERFORMED — headless Chromium timed out even on about:blank"
+  },
+  "source_limits": [
+    "Referenced Tier 1 nursing textbook PDFs and external Drive master plans/source index were not provided.",
+    "Exact lab specimen storage/handling, TB regimen/dosing details, detailed drug-label claims, healthcare-waste colour mappings, precise FECT lab amounts/storage and LF vectors/MDA timing remain UNVERIFIED/BLOCKED."
+  ]
+}
