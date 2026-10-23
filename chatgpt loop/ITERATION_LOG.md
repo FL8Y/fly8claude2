@@ -40,3 +40,17 @@ Append a new entry for each material improvement pass. Do not rewrite history to
 - **Decision:** ACCEPT for harness usability; overall project remains CONDITIONAL pending behavioral tests.
 - **Residual risks:** file read-back proves repository persistence only, not the semantic correctness of all content, currentness of official sources, or runtime behavior.
 - **Next action / handoff:** run VALIDATION_MATRIX.md adversarial prompts against the operational skill, record actual outputs, and fix any critical failures in this directory only.
+
+
+### Iteration 2 — 2026-10-23
+- **Objective:** switch this workspace from the former NURSE GOD skill scope to the user-selected PNLE Study Notes HTML app and make the HTML the primary iteration target.
+- **Evidence-backed defect:** the README and operational instructions centered on a nursing-research skill, not the uploaded study-notes app. The HTML file was not present as the primary project artifact in the target directory.
+- **Risk/impact:** future agents could improve the wrong artifact, fail to protect the embedded note corpus, or run irrelevant tests.
+- **Files changed:** `PNLE Study Notes.html` added from the supplied upload; `README.md`, `SKILL.md`, `NURSE_GOD_SPEC.md`, `LOOP_HARNESS.md`, `HANDOFFS.md`, `VALIDATION_MATRIX.md`, `LOOP_PROMPT.md`, and this log updated.
+- **Acceptance criteria:** HTML content is imported without intentional edits; project instructions focus on the HTML; edits must preserve notes, protect storage state, be tested, and logged.
+- **Tests run and actual results:** file retrieval returned 2,494,716 Unicode characters; uploaded source starts with `<!doctype html>`. GitHub create-file API accepted the original text payload. This verifies transfer through the API, not browser execution.
+- **Tests not run and why:** repository read-back of the 2.5 MB HTML, byte-for-byte Git blob verification, HTML parser, JavaScript syntax check, browser/device interactions, and content inventory were not run in this iteration.
+- **Regression/safety review:** no deliberate changes were made to the HTML content; instructions prohibit silent note rewrites, localStorage clearing, and unapproved dependencies.
+- **Decision:** ACCEPT for project-scope/harness realignment; overall app status remains CONDITIONAL.
+- **Residual risks:** exact byte-for-byte equality in GitHub remains to be verified; runtime reliability and note-content quality are untested. Gemini recommendations have not yet been provided for triage.
+- **Next action / handoff:** verify the uploaded HTML by reading it back and comparing the content/hash, then triage the user's Gemini suggestions and implement the highest-priority approved reliability fix.
