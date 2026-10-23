@@ -94,3 +94,13 @@ Append a new entry for each material improvement pass. Do not rewrite history to
 - **Status:** CONDITIONAL — data integrity and static app-script checks passed; runtime UI checks remain open.
 - **Residual risks:** layout, touch usability, deep-link navigation, storage behavior and clipboard permissions still need browser/device testing. No clinical content was reviewed or changed in this pass.
 
+
+
+### Verification audit — 2026-10-23
+- **Objective:** independently re-check the committed redesign's data integrity and static behavior claims before closeout.
+- **Scope:** read-only verification of `chatgpt loop/PNLE Study Notes.html`; no study content was edited.
+- **Baseline:** original HTML blob `9369e034a32a5131bd7fda5d1db3611c3ab8d45a`; audited implementation at main commit `4bc370f23812c4141b5a0b08101e51874e10993c`.
+- **Checks run:** extracted and parsed the embedded JSON from baseline and current HTML; compared the complete embedded JSON strings; checked note IDs, required fields, topic-group references and area/group consistency; parsed the inline app script with V8 `new Function`; checked title/head placement, visible header branding, mobile viewport/CSS, offline font dependency, bookmark/studied keys, expandable topic-group code, breadcrumbs and safe external-link attributes; ran read-only data/search predicate fixtures for renal + NP3 + fluids/renal, maternal + NP2 + obstetrics, rabies + NP1 + communicable disease, an ID lookup, and a no-match case.
+- **Results:** PASS — embedded JSON is byte-for-byte identical to baseline; 1,000 notes, 21 groups, 1,000 unique IDs, 141 diagrams; no missing required fields, dangling group keys, or group/area mismatches; app script syntax accepted; branding and requested static controls are present; fixture result counts were 50, 60, 9, 1, and 0 respectively.
+- **Limitations:** search fixtures exercised the data/matching predicate independently, not live DOM controls. No browser/device runtime, real interaction, console, localStorage persistence, clipboard permission, accessibility, visual, or clinical-validation tests were run.
+- **Decision:** CONDITIONAL — static integrity checks pass; browser/device checks remain outstanding. No app or clinical data was changed in this verification pass.
