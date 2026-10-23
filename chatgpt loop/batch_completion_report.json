@@ -7,7 +7,13 @@
       "rejected": 0,
       "already_correct": 2,
       "awaiting_evidence": 0,
-      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately.",
+      "finding_ids": [
+        "GEM-001",
+        "GEM-002",
+        "GEM-003",
+        "GEM-004"
+      ]
     },
     {
       "batch": 2,
@@ -16,7 +22,13 @@
       "rejected": 0,
       "already_correct": 0,
       "awaiting_evidence": 1,
-      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately.",
+      "finding_ids": [
+        "GEM-005",
+        "GEM-006",
+        "GEM-007",
+        "GEM-008"
+      ]
     },
     {
       "batch": 3,
@@ -25,7 +37,14 @@
       "rejected": 0,
       "already_correct": 3,
       "awaiting_evidence": 1,
-      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately.",
+      "finding_ids": [
+        "GEM-009",
+        "GEM-010",
+        "GEM-011",
+        "GEM-012",
+        "GEM-013"
+      ]
     },
     {
       "batch": 4,
@@ -34,7 +53,16 @@
       "rejected": 0,
       "already_correct": 2,
       "awaiting_evidence": 2,
-      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately.",
+      "finding_ids": [
+        "GEM-014",
+        "GEM-015",
+        "GEM-016",
+        "GEM-017",
+        "GEM-018",
+        "GEM-019",
+        "GEM-020"
+      ]
     },
     {
       "batch": 5,
@@ -43,7 +71,17 @@
       "rejected": 2,
       "already_correct": 2,
       "awaiting_evidence": 1,
-      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately.",
+      "finding_ids": [
+        "GEM-021",
+        "GEM-022",
+        "GEM-023",
+        "GEM-024",
+        "GEM-025",
+        "GEM-026",
+        "GEM-027",
+        "GEM-028"
+      ]
     },
     {
       "batch": 6,
@@ -52,7 +90,21 @@
       "rejected": 1,
       "already_correct": 1,
       "awaiting_evidence": 2,
-      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately.",
+      "finding_ids": [
+        "GEM-029",
+        "GEM-030",
+        "GEM-031",
+        "GEM-032",
+        "GEM-033",
+        "GEM-034",
+        "GEM-035",
+        "GEM-036",
+        "GEM-037",
+        "GEM-038",
+        "GEM-039",
+        "GEM-040"
+      ]
     },
     {
       "batch": 7,
@@ -193,7 +245,9 @@
     }
   },
   "validation_notes": [
-    "Data JSON parse and structural checks are repeated after the final batch.",
-    "Browser-based interaction/responsive testing is not performed unless explicitly stated."
+    "HTML data JSON parses successfully; 1,000 notes, 1,000 unique IDs and 21 topic groups remain intact.",
+    "Inline app JavaScript syntax check passed with node --check on the extracted inline application script.",
+    "A real-browser smoke test was attempted but headless Chromium timed out even on about:blank; in-browser interactions/responsive behavior are not claimed as tested.",
+    "All UNVERIFIED findings are marked UNVERIFIED / SOURCE ACCESS LIMITED and excluded from the independently verified count."
   ]
 }
