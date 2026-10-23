@@ -1,10 +1,10 @@
 # Lordahn's Tracker — Batch-by-Batch Source Verification Ledger
 
 - Source HTML SHA-256: `3e3a51a02916e4a5b3c01d2cfdae6fb9c0d0b17f456cc02cb901e9cdcf0080b5`
-- Output HTML SHA-256: `5584f7a335eca227b8fa9521b5cf4a96f410a916fdf50b6bdf68297ce0867bd8`
+- Output HTML SHA-256: `ed636ff0ed86177d7b71fb166f3d03cd739bd2157222e84bedafeb59a9037c5e`
 - Baseline: 1000 notes; 1000 unique IDs; 21 groups.
-- Accountability: 63/63 = **100.0%**.
-- Independently evidence-checked: 33/63 = **52.4%**.
+- Accountability: 69/69 = **100.0%**.
+- Independently evidence-checked: 33/69 = **47.8%**.
 - Implementation: 29/29 approved/eligible changes applied or confirmed unnecessary = **100.0%**.
 - Source limitation: exact textbook pages, master-plan/source-index Drive files, and selected technical DOH/laboratory manuals were not attached or page-verified; affected claims remain explicitly unverified/blocked.
 
@@ -869,4 +869,86 @@ Processed findings: 4. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evi
 - **Gemini source cited:** JoAnne Silbert-Flagg MCH nursing and pediatric cardiology guidance named by report but not supplied
 - **Independent sources:** None verified for the exact claim in this pass.
 - **Final disposition:** BLOCKED; no fixed infant feeding schedule added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+## Batch 12
+
+Processed findings: 6. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evidence/blocked: 6.
+
+### GEM-064 — Black waste bag mapping
+- **Report location:** Report master table, environmental laws/waste section
+- **HTML destination:** `np1-waste-food-laws`
+- **Original claim:** The report maps black to non-infectious dry waste.
+- **Proposed correction:** Check the exact current Philippine DOH Health-Care Waste Management Manual table before inserting the colour code into the study notes.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The manual’s exact category table was not attached or verified in this pass.
+- **Gemini source cited:** DOH Health-Care Waste Management Manual, 4th ed. (2020) cited by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no black-bag mapping added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-065 — Green waste bag mapping
+- **Report location:** Report master table, environmental laws/waste section
+- **HTML destination:** `np1-waste-food-laws`
+- **Original claim:** The report maps green to non-infectious wet/biodegradable waste.
+- **Proposed correction:** Check the exact current Philippine DOH waste-colour table before adding this mapping.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The exact source table and local facility adoption were not verified.
+- **Gemini source cited:** DOH Health-Care Waste Management Manual, 4th ed. (2020) cited by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no green-bag mapping added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-066 — Yellow waste bag mapping
+- **Report location:** Report master table, environmental laws/waste section
+- **HTML destination:** `np1-waste-food-laws`
+- **Original claim:** The report maps yellow to infectious/pathological waste.
+- **Proposed correction:** Verify the precise segregation category and any subcategory exceptions in the current governing manual before adding the rule.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The category was not independently checked against the primary table.
+- **Gemini source cited:** DOH Health-Care Waste Management Manual, 4th ed. (2020) cited by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no yellow-bag mapping added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-067 — Yellow with black band mapping
+- **Report location:** Report master table, environmental laws/waste section
+- **HTML destination:** `np1-waste-food-laws`
+- **Original claim:** The report maps yellow with black band to chemical/pharmaceutical/heavy-metal waste.
+- **Proposed correction:** Verify the precise waste classes and colour-band rules in the applicable current manual; do not merge different hazardous subtypes without the governing table.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The exact colour-band mapping was not directly verified.
+- **Gemini source cited:** DOH Health-Care Waste Management Manual, 4th ed. (2020) cited by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no yellow/black-band mapping added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-068 — Orange waste bag mapping
+- **Report location:** Report master table, environmental laws/waste section
+- **HTML destination:** `np1-waste-food-laws`
+- **Original claim:** The report maps orange to radioactive waste.
+- **Proposed correction:** Confirm the applicable current radioactive-waste handling and container labelling guidance before teaching a colour-only rule.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The exact mapping was not verified against a primary manual.
+- **Gemini source cited:** DOH Health-Care Waste Management Manual and radiation safety guidance cited by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no orange-bag mapping added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-069 — Red/puncture-proof sharps container mapping
+- **Report location:** Report master table, environmental laws/waste section
+- **HTML destination:** `np1-waste-food-laws`
+- **Original claim:** The report maps red/puncture-proof containers to sharps.
+- **Proposed correction:** Verify the current container standard and waste category labels from the relevant DOH manual; colour, container design and disposal requirements must not be conflated.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The precise red-colour rule and its relation to puncture-proof sharps containers were not confirmed.
+- **Gemini source cited:** DOH Health-Care Waste Management Manual, 4th ed. (2020) cited by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no red/sharps mapping added.
 - **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
