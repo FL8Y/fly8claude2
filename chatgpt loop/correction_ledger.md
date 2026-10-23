@@ -1,10 +1,10 @@
 # Lordahn's Tracker — Batch-by-Batch Source Verification Ledger
 
 - Source HTML SHA-256: `3e3a51a02916e4a5b3c01d2cfdae6fb9c0d0b17f456cc02cb901e9cdcf0080b5`
-- Output HTML SHA-256: `1f27bfc3fd5159480d264f0f4d9fb0e3ff85a280de225b4466aa3fb09e887260`
+- Output HTML SHA-256: `5584f7a335eca227b8fa9521b5cf4a96f410a916fdf50b6bdf68297ce0867bd8`
 - Baseline: 1000 notes; 1000 unique IDs; 21 groups.
-- Accountability: 59/59 = **100.0%**.
-- Independently evidence-checked: 33/59 = **55.9%**.
+- Accountability: 63/63 = **100.0%**.
+- Independently evidence-checked: 33/63 = **52.4%**.
 - Implementation: 29/29 approved/eligible changes applied or confirmed unnecessary = **100.0%**.
 - Source limitation: exact textbook pages, master-plan/source-index Drive files, and selected technical DOH/laboratory manuals were not attached or page-verified; affected claims remain explicitly unverified/blocked.
 
@@ -813,4 +813,60 @@ Processed findings: 5. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evi
 - **Gemini source cited:** DOH/WHO fever-management guidance not directly inspected for this precise recommendation
 - **Independent sources:** None verified for the exact claim in this pass.
 - **Final disposition:** BLOCKED; the app does not add this procedure or trigger.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+## Batch 11
+
+Processed findings: 4. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evidence/blocked: 4.
+
+### GEM-060 — Pre/post-fluid-bolus Hct/platelet timing and transfusion trigger
+- **Report location:** Report section “Expanded Note 2: Dengue,” collaborative management
+- **HTML destination:** `np1-cd-dengue`
+- **Original claim:** The report says Hct/platelets should be measured before and after fluid boluses and a falling Hct with instability signals occult hemorrhage requiring immediate transfusion.
+- **Proposed correction:** Escalate instability urgently, but tie fluid-bolus, repeat-lab and transfusion decisions to the current dengue protocol and a clinician’s hemodynamic assessment; do not teach a single lab change as an automatic transfusion order.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** This is a high-risk resuscitation claim; the precise sequence and transfusion trigger were not independently validated in this pass.
+- **Gemini source cited:** DOH dengue clinical management guideline cited by report; exact algorithm not page-verified
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; the app instead emphasizes protocol-driven fluids and reassessment.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-061 — D-E-N-G-U-E mnemonic as the exact official list of warning signs
+- **Report location:** Report section “Expanded Note 2: Dengue,” quick memory aid
+- **HTML destination:** `np1-cd-dengue`
+- **Original claim:** The report presents a custom mnemonic intended to encode seven warning signs.
+- **Proposed correction:** Treat mnemonics as study aids only; check every item against the governing clinical guideline and avoid labeling a constructed mnemonic as an official government artifact.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The study note already lists warning signs in plain language; the exact mnemonic was not independently verified or needed for correction.
+- **Gemini source cited:** DOH AO 2012-0006 cited by report; mnemonic not sourced separately
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; warning signs remain presented as clinical concepts rather than this unsourced mnemonic.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-062 — TOF hypercyanotic-spell explanation of knee-chest positioning
+- **Report location:** Report section “Expanded Note 2: Dengue,” clinical management
+- **HTML destination:** `np2-pd-tof`
+- **Original claim:** The report attributes the benefit to femoral/iliac compression raising SVR and claims LV pressure then forces blood across the stenotic pulmonary valve.
+- **Proposed correction:** Keep the standard immediate positioning intervention distinct from a detailed pressure-flow explanation; verify the mechanism against a pediatric cardiology source before teaching that exact causal sequence.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The positioning intervention is already in the HTML; the proposed detailed ventricular-pressure explanation was not independently validated.
+- **Gemini source cited:** AHA/AAP or specialty pediatric cardiology source named by report but not supplied/inspected
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; the existing position cue remains, and the unverified causal explanation was not added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-063 — Fixed feeding interval/nipple/20–30-minute limit for a 2-month-old with heart failure
+- **Report location:** Report section “Expanded Note 2: Dengue” / pediatric cardiology passage, CHF feeding sentence
+- **HTML destination:** `np2-pd-tof; pediatric CHF topic search anchor`
+- **Original claim:** The report recommends a soft preemie nipple, small feeds every 3 hours, and finishing in 20–30 minutes.
+- **Proposed correction:** Do not impose a fixed nipple or feeding interval for an individual infant without assessment and a current pediatric/cardiology feeding plan.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The exact nipple type, schedule and duration need individualized assessment and were not confirmed in the inaccessible textbook/source.
+- **Gemini source cited:** JoAnne Silbert-Flagg MCH nursing and pediatric cardiology guidance named by report but not supplied
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no fixed infant feeding schedule added.
 - **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
