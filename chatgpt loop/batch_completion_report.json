@@ -1,0 +1,104 @@
+{
+  "batches": [
+    {
+      "batch": 1,
+      "findings_processed": 4,
+      "applied": 0,
+      "rejected": 0,
+      "already_correct": 2,
+      "awaiting_evidence": 0,
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+    },
+    {
+      "batch": 2,
+      "findings_processed": 4,
+      "applied": 3,
+      "rejected": 0,
+      "already_correct": 0,
+      "awaiting_evidence": 1,
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+    },
+    {
+      "batch": 3,
+      "findings_processed": 5,
+      "applied": 1,
+      "rejected": 0,
+      "already_correct": 3,
+      "awaiting_evidence": 1,
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+    },
+    {
+      "batch": 4,
+      "findings_processed": 7,
+      "applied": 1,
+      "rejected": 0,
+      "already_correct": 2,
+      "awaiting_evidence": 2,
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+    },
+    {
+      "batch": 5,
+      "findings_processed": 8,
+      "applied": 1,
+      "rejected": 2,
+      "already_correct": 2,
+      "awaiting_evidence": 1,
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+    },
+    {
+      "batch": 6,
+      "findings_processed": 12,
+      "applied": 2,
+      "rejected": 1,
+      "already_correct": 1,
+      "awaiting_evidence": 2,
+      "validation": "Notes modified only by scoped body replacements; full structural/functional validation is run separately."
+    },
+    {
+      "batch": 7,
+      "findings_processed": 5,
+      "finding_ids": [
+        "GEM-041",
+        "GEM-042",
+        "GEM-043",
+        "GEM-044",
+        "GEM-045"
+      ],
+      "applied": 0,
+      "rejected": 0,
+      "already_correct": 0,
+      "awaiting_evidence": 5,
+      "validation": "Checkpoint saved; 1,000-note payload and 21 groups asserted; final HTML integrity tests rerun at final validation. Exact new claims intentionally held out pending official source-page checks."
+    }
+  ],
+  "final_summary": {
+    "total_findings": 45,
+    "accounted": 45,
+    "accountability_pct": 100.0,
+    "independently_verified": 33,
+    "verification_pct": 73.3,
+    "approved_eligible_changes": 29,
+    "implemented_or_not_needed": 29,
+    "implementation_pct": 100.0,
+    "verdict_counts": {
+      "ALREADY CORRECT": 10,
+      "CONFLICTING EVIDENCE": 2,
+      "PARTIALLY VALID": 10,
+      "VERIFIED CORRECTION": 7,
+      "UNVERIFIED": 12,
+      "REJECT": 3,
+      "OUTDATED": 1
+    },
+    "implementation_status_counts": {
+      "NOT NEEDED": 22,
+      "APPLIED": 8,
+      "PENDING EVIDENCE": 1,
+      "BLOCKED": 11,
+      "REJECTED": 3
+    }
+  },
+  "validation_notes": [
+    "Data JSON parse and structural checks are repeated after the final batch.",
+    "Browser-based interaction/responsive testing is not performed unless explicitly stated."
+  ]
+}
