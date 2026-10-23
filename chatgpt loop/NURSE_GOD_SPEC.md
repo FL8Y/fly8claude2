@@ -53,3 +53,7 @@ When Gemini suggestions or user requests arrive:
 
 ## Current status
 Baseline import is the first step. No feature request from Gemini has been evaluated in this iteration because its recommendations have not yet been supplied to this workspace. Runtime behavior and the embedded notes inventory still require explicit validation.
+
+
+## Iteration 3 outcome
+The HTML now contains 1,000 unique note records, including 26 additions from the supplied topic blueprint. Selected existing notes received safety/currentness clarifications, and area labels were normalized for the fluids/renal and burns groups. These edits do not constitute a full clinical fact-check. The source shelf described in Gemini's message was not directly inspected in this session; exact textbook chapters and all proposed medication regimens have not been verified against that shelf.
