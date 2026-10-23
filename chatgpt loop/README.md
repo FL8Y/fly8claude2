@@ -22,3 +22,11 @@ Run up to five evidence-backed passes per session. Make a narrow change, run ava
 
 ## Scope
 Work only within `chatgpt loop/`. Do not edit other repository files, add external services, or introduce patient-identifiable data. Keep a backup or recoverable Git history before replacing the HTML.
+
+
+## Latest update — 2026-10-23
+- The embedded data now contains 1,000 unique note records across the existing 21 groups.
+- Added 26 high-yield topics requested from the supplied Gemini audit.
+- Normalized all fluids/electrolytes/renal notes to NP3 and burns notes to NP5.
+- Added cautionary updates to selected existing notes and enabled safe clickable HTTPS links in note bodies.
+- This is an educational review build, not nurse-reviewed or clinically validated. See `ITERATION_LOG.md` for actual checks and remaining gaps.
