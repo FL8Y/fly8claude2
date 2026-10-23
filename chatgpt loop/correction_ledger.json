@@ -3,7 +3,7 @@
   "source_html": "Lordahns_Tracker_Audited.html",
   "source_report": "PNLE Study Notes Source Verification.docx",
   "source_html_sha256": "3e3a51a02916e4a5b3c01d2cfdae6fb9c0d0b17f456cc02cb901e9cdcf0080b5",
-  "output_html_sha256": "223d2b7d784c648e161e3844e9ae181a71c0a26f12ed63e6161f5766a8bd19f7",
+  "output_html_sha256": "d0a7cc967134dd722729cb7e066ca98aaeb1b838928fcf636ff1c2295b9f20e0",
   "baseline": {
     "notes": 1000,
     "unique_nonempty_note_ids": 1000,
