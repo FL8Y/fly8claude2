@@ -1,10 +1,10 @@
 # Lordahn's Tracker — Batch-by-Batch Source Verification Ledger
 
 - Source HTML SHA-256: `3e3a51a02916e4a5b3c01d2cfdae6fb9c0d0b17f456cc02cb901e9cdcf0080b5`
-- Output HTML SHA-256: `223d2b7d784c648e161e3844e9ae181a71c0a26f12ed63e6161f5766a8bd19f7`
+- Output HTML SHA-256: `d0a7cc967134dd722729cb7e066ca98aaeb1b838928fcf636ff1c2295b9f20e0`
 - Baseline: 1000 notes; 1000 unique IDs; 21 groups.
-- Accountability: 48/48 = **100.0%**.
-- Independently evidence-checked: 33/48 = **68.8%**.
+- Accountability: 54/54 = **100.0%**.
+- Independently evidence-checked: 33/54 = **61.1%**.
 - Implementation: 29/29 approved/eligible changes applied or confirmed unnecessary = **100.0%**.
 - Source limitation: exact textbook pages, master-plan/source-index Drive files, and selected technical DOH/laboratory manuals were not attached or page-verified; affected claims remain explicitly unverified/blocked.
 
@@ -662,4 +662,86 @@ Processed findings: 3. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evi
 - **Gemini source cited:** DOH NTP MOP 6th ed. (2021) and WHO TB treatment guidance named by report
 - **Independent sources:** None verified for the exact claim in this pass.
 - **Final disposition:** BLOCKED; no fixed CNS/bone/joint duration was newly added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+## Batch 9
+
+Processed findings: 6. Applied: 0. Rejected: 0. Already correct: 0. Awaiting evidence/blocked: 6.
+
+### GEM-049 — Drug-resistant TB regimen durations
+- **Report location:** Report section “Expanded Note 1: Tuberculosis,” pharmacologic care
+- **HTML destination:** `np3-cr-tb-drugs; np1-endemic-diseases`
+- **Original claim:** The report states SSTR for 9–11 months or CTR for 20–24 months.
+- **Proposed correction:** Avoid presenting these durations as current universal options without checking the latest eligibility-based drug-resistant TB protocols.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** Contemporary drug-resistant TB regimens and eligibility have changed; the two duration ranges were not verified against current guidance.
+- **Gemini source cited:** WHO and DOH TB treatment guidance named by report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no regimen-duration shortcut added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-050 — Rifampicin red-orange body-fluid discoloration and contact-lens staining
+- **Report location:** Report section “Expanded Note 1: Tuberculosis,” RIPE toxicity mnemonic
+- **HTML destination:** `np3-cr-tb-drugs`
+- **Original claim:** The report states rifampicin turns urine, sweat, saliva and tears red-orange and may permanently stain soft contact lenses.
+- **Proposed correction:** Verify the exact official product-label counseling wording before importing the contact-lens permanence claim.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The exact counseling details and permanent-staining wording were not checked against the current product label.
+- **Gemini source cited:** Official rifampicin prescribing information was not supplied with the report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; not added as an asserted drug-label warning.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-051 — Rifampicin induction of hepatic enzymes and hormonal contraceptive interaction
+- **Report location:** Report section “Expanded Note 1: Tuberculosis,” RIPE toxicity mnemonic
+- **HTML destination:** `np3-cr-tb-drugs`
+- **Original claim:** The report states rifampicin induces CYP450 enzymes and inactivates oral contraceptives.
+- **Proposed correction:** Check the current official drug label and contraception interaction advice before making a categorical claim about every oral contraceptive or contraceptive method.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The specific interaction and scope across contraceptive formulations were not page-checked in the current label.
+- **Gemini source cited:** Official rifampicin prescribing information was not supplied with the report
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no detailed interaction table added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-052 — Isoniazid pyridoxine supplementation dose
+- **Report location:** Report section “Expanded Note 1: Tuberculosis,” RIPE toxicity mnemonic
+- **HTML destination:** `np3-cr-tb-drugs`
+- **Original claim:** The report specifies pyridoxine 10–50 mg/day to manage or prevent peripheral neuropathy.
+- **Proposed correction:** Do not provide one universal B6 dose without checking current NTP protocol, indication and patient-specific risk.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The dosage range was not verified against current local protocol and individual risk indications.
+- **Gemini source cited:** Official isoniazid prescribing information and current NTP regimen guidance not supplied for page-level check
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no fixed B6 dose added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-053 — Pyrazinamide hepatotoxicity and hyperuricemia/gout
+- **Report location:** Report section “Expanded Note 1: Tuberculosis,” RIPE toxicity mnemonic
+- **HTML destination:** `np3-cr-tb-drugs`
+- **Original claim:** The report presents hepatic toxicity and urate retention/gout as pyrazinamide adverse effects.
+- **Proposed correction:** Keep adverse-effect advice tied to an authoritative drug reference and do not convert a possible adverse effect into a diagnosis or automatic discontinuation rule.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The drug-label statement and monitoring instruction were not independently checked; the expansion was not imported.
+- **Gemini source cited:** Official pyrazinamide prescribing information was not supplied for this pass
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no new adverse-effect table added.
+- **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
+
+### GEM-054 — Ethambutol optic neuritis and under-six contraindication
+- **Report location:** Report section “Expanded Note 1: Tuberculosis,” RIPE toxicity mnemonic
+- **HTML destination:** `np3-cr-tb-drugs`
+- **Original claim:** The report states ethambutol causes dose-dependent optic neuritis and is contraindicated in children under 6.
+- **Proposed correction:** Verify current product labeling and the pediatric specialist/NTP guidance before stating an absolute age contraindication.
+- **Verdict / implementation:** `UNVERIFIED` / `BLOCKED`
+- **Verification status:** UNVERIFIED / SOURCE ACCESS LIMITED
+- **Evidence review:** The optic-toxicity caution is plausible, but the absolute under-six contraindication needs product- and protocol-specific verification.
+- **Gemini source cited:** Official ethambutol prescribing information and current pediatric NTP guidance not supplied for page-level check
+- **Independent sources:** None verified for the exact claim in this pass.
+- **Final disposition:** BLOCKED; no absolute age contraindication added.
 - **Second-pass review:** SECOND REVIEW COMPLETE: claim intentionally withheld because exact authoritative source/protocol was not page-verified.
